@@ -1,11 +1,250 @@
-/* CSS files add styling rules to your content */
-
 body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+    margin: 0px;
+    padding: 0px;
+    background-image:url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Ftaust2.jpg?v=1602790089498');
+}
+
+#ikoon1 {
+    position: absolute;
+    width: 67px;
+    height: 65px;
+    left: 10px;
+    top: 25px;
+    bottom: 10px;
+    background: url('ikoon7.png');
+  }
+  
+  #ikoon2 {
+    position: absolute;
+    width: 67px;
+    height: 65px;
+    left: 10px;
+    top: 25px;
+    bottom: 10px;
+    background: url('ikoon8.png');
+  }
+
+  #ikoon3 {
+    position: absolute;
+    width: 67px;
+    height: 65px;
+    left: 1750px;
+    top: 440px;
+    bottom: 10px;
+    background: url('avatar.png');
+  }
+
+  #ikoon4 {
+    position: absolute;
+    width: 20px;
+    height: auto;
+    left: 225px;
+    top: 48px;
+    bottom: 10px;
+    background: url('homeicon.png');
+  }
+
+  #ikoon5 {
+    position: absolute;
+    width: 20px;
+    height: auto;
+    left: 335px;
+    top: 48px;
+    bottom: 10px;
+    background: url('about us.png');
+}
+
+#ikoon6 {
+    position: absolute;
+    width: 20px;
+    height: auto;
+    left: 465px;
+    top: 48px;
+    bottom: 10px;
+    background: url('dollar.png');
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+    position: absolute;
+    width: 197px;
+    height: 49px;
+    left: 80px;
+    top: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 15px;
+}
+
+#header { 
+   color: #708090;
+   padding: 5px;
+   margin: 0px;
+   border-bottom: #708090 5px solid;
+   background-color: #ffffff;
+   height: 90px;
+   text-align: left;
+}
+
+#header a {
+    text-align: right;
+    margin-top: 10px;
+    float: right; 
+}
+
+#nupud a:hover {
+    color: #445691;  
+}
+
+#nupud title {
+    text-align: right;   
+}
+
+#algus h5 {
+    margin: 0px;
+    padding: 5px;
+    position: absolute;
+    left: 218px;
+    top: 215px  
+}
+
+
+#algus {
+    color: #BFD7FF;
+    font-size: 85px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 80px;
+    font-weight: bold;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
+#algusetekst {
+    position: absolute;
+    color: #9BB1FF;
+    font-size: 850px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: 25px;
+    top: 365px;
+    left: 170px;    
+}
+
+#imagetext {
+    position: relative;
+    top: 0px;
+    left: 1240px;
+    color: darkgreen;
+}
+
+
+
+#nupp1 {
+    position: absolute;
+    width: 60px;
+    height: 33px;
+    left: 230px;
+    top: 20px;
+    font-size: 30px;
+    line-height: 40px;
+        color: #708090;
+        margin: 8px;
+        padding: 8px;
+        text-align: center;
+        font-size:  25px;
+        text-decoration: underline;       
+}
+
+#nupp3  {
+    position: absolute;
+    width: 60px;
+    height: 33px;
+    left: 470px;
+    top: 20px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+        color: #708090;
+        margin: 8px;
+        padding: 8px;
+        text-align: center;
+        font-size:  25px;
+        text-decoration: underline;
+}
+
+#nupp2 {
+    position: absolute;
+    width: 98px;
+    height: 48px;
+    left: 330px;
+    top: 20px; 
+    font-size: 30px;
+    line-height: 40px;
+        color: #708090;
+        margin: 10px;
+        padding: 8px;
+        text-align: center;
+        font-size: 25px;
+        text-decoration: underline;
+}
+
+#nupp3  {
+    position: absolute;
+    width: 60px;
+    height: 33px;
+    left: 470px;
+    top: 20px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+        color: #708090;
+        margin: 8px;
+        padding: 8px;
+        text-align: center;
+        font-size:  25px;
+        text-decoration: underline;
+}
+
+#nupp4 {
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    font-size: 23px;
+    padding: 5px;
+    background-color: transparent;
+    border-color:#708090;
+    border-width: 1,5px;
+    border-radius: 9%;
+    color: #00416A;
+}
+
+#nupp5 {
+    position: absolute;
+    top: 33px;
+    right: 140px;
+    font-size: 23px;
+    padding: 5px;
+    background-color: transparent;
+    border-color:#708090;
+    border-width: 1,5px;
+    border-radius: 9%;
+    color: #00416A;
+}
+
+.header {
+    margin: 10px;
+    padding: 10px   ;
+}
+
+#frame1 {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    right: 100px;
+    top: 502px;
+    background-color: transparent;
+    border-color: black;
+    border-width: 0px;
+    border-radius: 20%;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
