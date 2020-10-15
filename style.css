@@ -248,3 +248,12 @@ h1 {
     overflow-y: hidden;
     overflow-x: hidden;
 }
+
+#hiddenReveal {
+    color: orange;
+    position: absolute;
+    top: 105px;
+    left: 1400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}

@@ -1,5 +1,4 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
-
-// prints "hi" in the browser's dev tools console
-console.log("hi");
+function revealMe() {
+    document.getElementById("hiddenReveal").style.display = 'block';
+}
+//find the secret message on the website
