@@ -15,21 +15,21 @@ body {
   }
   
   #ikoon2 {
-    position: absolute;
+    position: relative;
     width: 67px;
     height: 65px;
-    left: 10px;
-    top: 25px;
+    left: 6px;
+    top: 20px;
     bottom: 10px;
     background: url('ikoon8.png');
   }
 
   #ikoon3 {
-    position: absolute;
+    position: relative;
     width: 67px;
-    height: 65px;
-    left: 1750px;
-    top: 440px;
+    height: 65px
+      
+    float: right;
     bottom: 10px;
     background: url('avatar.png');
   }
@@ -103,11 +103,14 @@ h1 {
 #algus h5 {
     margin: 0px;
     padding: 5px;
-    position: absolute;
+    position: relative;
     left: 218px;
     top: 215px  
 }
 
+#info {
+  position: relative;
+}
 
 #algus {
     color: #BFD7FF;
@@ -119,9 +122,8 @@ h1 {
     font-family: Impact,'Arial Narrow Bold', sans-serif;
 }
 #algusetekst {
-    position: absolute;
+    position: relative;
     color: #9BB1FF;
-    font-size: 850px;
     margin-left: 50px;
     font-family: sans-serif;
     font-size: 25px;
@@ -130,6 +132,13 @@ h1 {
 }
 
 #imagetext {
+    position: relative;
+    color: #9BB1FF;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: 25px;
+    top: 365px;
+    left: 170px;   
     position: relative;
     top: 0px;
     color: darkgreen;
