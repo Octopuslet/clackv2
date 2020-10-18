@@ -2,6 +2,10 @@ body {
     margin: 0px;
     padding: 0px;
     background-image:url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Ftaust2.jpg?v=1602790089498');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #ikoon1 {
@@ -74,6 +78,7 @@ h1 {
     font-weight: normal;
     font-size: 50px;
     line-height: 15px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 #header { 
@@ -104,8 +109,6 @@ h1 {
     margin: 0px;
     padding: 5px;
     position: relative;
-    left: 218px;
-    top: 215px  
 }
 
 #info {
@@ -126,9 +129,7 @@ h1 {
     color: #9BB1FF;
     margin-left: 50px;
     font-family: sans-serif;
-    font-size: 25px;
-    top: 365px;
-    left: 170px;    
+    font-size: 25px; 
 }
 
 #imagetext {
@@ -137,10 +138,6 @@ h1 {
     margin-left: 50px;
     font-family: sans-serif;
     font-size: 25px;
-    top: 365px;
-    left: 170px;   
-    position: relative;
-    top: 0px;
     color: darkgreen;
 }
 
@@ -240,17 +237,23 @@ h1 {
 
 .header {
     margin: 10px;
-    padding: 10px   ;
+    padding: 10px;
+}
+
+
+
+#eksemplar {
+  float: right;
+}
+
+#autor {
+  display: flex;
 }
 
 #frame1 {
     position: relative;
     margin: 0px;
     padding: 0px;
-    top: 502px;
-  
-/*     right: 100px;   */
-    float:right;
     background-color: transparent;
     border-color: black;
     border-width: 0px;
@@ -262,8 +265,6 @@ h1 {
 #hiddenReveal {
     color: orange;
     position: absolute;
-    top: 105px;
-    left: 1400px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
 }
