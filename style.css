@@ -132,7 +132,6 @@ h1 {
 #imagetext {
     position: relative;
     top: 0px;
-    left: 1240px;
     color: darkgreen;
 }
 
@@ -236,11 +235,13 @@ h1 {
 }
 
 #frame1 {
-    position: absolute;
+    position: relative;
     margin: 0px;
     padding: 0px;
-    right: 100px;
     top: 502px;
+  
+/*     right: 100px;   */
+    float:right;
     background-color: transparent;
     border-color: black;
     border-width: 0px;
