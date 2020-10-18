@@ -243,11 +243,12 @@ h1 {
 
 
 #eksemplar {
-  float: right;
+    padding-right: 100px;
+    float: right;
 }
 
 #autor {
-  display: flex;
+    display: flex;
 }
 
 #frame1 {
@@ -264,7 +265,7 @@ h1 {
 
 #hiddenReveal {
     color: orange;
-    position: absolute;
+    position: relative;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
 }
