@@ -264,9 +264,11 @@ h1 {
 
 #hiddenReveal {
     color: orange;
-    position: relative;
+    position: absolute;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
-    margin-left: 1300px;
+    left: 1300px;
+    top:20px;
     
 }
+
