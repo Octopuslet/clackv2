@@ -85,7 +85,7 @@ h1 {
    padding: 5px;
    margin: 0px;
    border-bottom: #708090 5px solid;
-   
+   background-color: #ffffff;
    height: 90px;
    text-align: left;
 }
@@ -227,11 +227,12 @@ h1 {
     right: 140px;
     font-size: 23px;
     padding: 5px;
-    background-color: transparent;
+    background-color: #F06543;
     border-color:#708090;
     border-width: 1,5px;
-    border-radius: 9%;
-    color: #00416A;
+    border-radius: 20%;
+    color: white;
+  
 }
 
 .header {
