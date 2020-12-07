@@ -1,113 +1,113 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    background-image:url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Ftaust2.jpg?v=1602790089498');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Ftaust2.jpg?v=1602790089498");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #ikoon1 {
-    position: absolute;
-    width: 67px;
-    height: 65px;
-    left: 905px;
-    top: 25px;
-    bottom: 10px;
-    background: url('ikoon7.png');
-  }
-  
-  #ikoon2 {
-    position: relative;
-    width: 67px;
-    height: 65px;
-    left: 900px;
-    top: 20px;
-    bottom: 10px;
-    background: url('ikoon8.png');
-  }
+  position: absolute;
+  width: 67px;
+  height: 65px;
+  left: 905px;
+  top: 25px;
+  bottom: 10px;
+  background: url("ikoon7.png");
+}
 
-  #ikoon3 {
-    position: relative;
-    width: 67px;
-    height: 65px;
-    float: right;
-    bottom: 10px;
-    background: url('avatar.png');
-  }
+#ikoon2 {
+  position: relative;
+  width: 67px;
+  height: 65px;
+  left: 900px;
+  top: 20px;
+  bottom: 10px;
+  background: url("ikoon8.png");
+}
 
-  #ikoon4 {
-    position: absolute;
-    width: 20px;
-    height: auto;
-    left: 225px;
-    top: 48px;
-    bottom: 10px;
-    background: url('homeicon.png');
-  }
+#ikoon3 {
+  position: relative;
+  width: 67px;
+  height: 65px;
+  float: right;
+  bottom: 10px;
+  background: url("avatar.png");
+}
 
-  #ikoon5 {
-    position: absolute;
-    width: 20px;
-    height: auto;
-    left: 335px;
-    top: 48px;
-    bottom: 10px;
-    background: url('about us.png');
+#ikoon4 {
+  position: absolute;
+  width: 20px;
+  height: auto;
+  left: 225px;
+  top: 48px;
+  bottom: 10px;
+  background: url("homeicon.png");
+}
+
+#ikoon5 {
+  position: absolute;
+  width: 20px;
+  height: auto;
+  left: 335px;
+  top: 48px;
+  bottom: 10px;
+  background: url("about us.png");
 }
 
 #ikoon6 {
-    position: absolute;
-    width: 20px;
-    height: auto;
-    left: 465px;
-    top: 48px;
-    bottom: 10px;
-    background: url('dollar.png');
+  position: absolute;
+  width: 20px;
+  height: auto;
+  left: 465px;
+  top: 48px;
+  bottom: 10px;
+  background: url("dollar.png");
 }
 
 h1 {
-    position: absolute;
-    width: 197px;
-    height: 49px;
-    left: 80px;
-    top: 15px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 15px;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  position: absolute;
+  width: 197px;
+  height: 49px;
+  left: 80px;
+  top: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 15px;
+  font-family: "ZCOOL QingKe HuangYou", cursive;
 }
 
-#header { 
-   color: #708090;
-   padding: 5px;
-   margin: 0px;
-   border-bottom: #708090 5px solid;
-   background-color: #ffffff;
-   height: 90px;
-   text-align: left;
+#header {
+  color: #708090;
+  padding: 5px;
+  margin: 0px;
+  border-bottom: #708090 5px solid;
+  background-color: #ffffff;
+  height: 90px;
+  text-align: left;
 }
 
 #header a {
-    text-align: right;
-    margin-top: 10px;
-    float: right; 
+  text-align: right;
+  margin-top: 10px;
+  float: right;
 }
 
 #nupud a:hover {
-    color: #445691;  
+  color: #445691;
 }
 
 #nupud title {
-    text-align: right;   
+  text-align: right;
 }
 
 #algus h5 {
-    margin: 0px;
-    padding: 5px;
-    position: relative;
+  margin: 0px;
+  padding: 5px;
+  position: relative;
 }
 
 #info {
@@ -115,167 +115,159 @@ h1 {
 }
 
 #algus {
-    color: #BFD7FF;
-    font-size: 85px;
-    text-align: left;
-    margin-left: 50px;
-    margin-top: 80px;
-    font-weight: bold;
-    font-family: Impact,'Arial Narrow Bold', sans-serif;
+  color: #BFD7FF;
+  font-size: 85px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 80px;
+  font-weight: bold;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
 }
 #algusetekst {
-    position: relative;
-    color: #6F89D8;
-    margin-left: 50px;
-    font-family: sans-serif;
-    font-size: 25px; 
+  position: relative;
+  color: #6F89D8;
+  margin-left: 50px;
+  font-family: sans-serif;
+  font-size: 25px;
 }
 
 #imagetext {
-    position: relative;
-    color: #9BB1FF;
-    margin-left: 50px;
-    font-family: sans-serif;
-    font-size: 25px;
-    color: darkgreen;
+  position: relative;
+  color: #9BB1FF;
+  margin-left: 50px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: darkgreen;
 }
-
-
 
 #nupp1 {
-    position: absolute;
-    width: 60px;
-    height: 33px;
-    left: 230px;
-    top: 20px;
-    font-size: 30px;
-    line-height: 40px;
-        color: #708090;
-        margin: 8px;
-        padding: 8px;
-        text-align: center;
-        font-size:  25px;
-        text-decoration: underline;       
+  position: absolute;
+  width: 60px;
+  height: 33px;
+  left: 230px;
+  top: 20px;
+  font-size: 30px;
+  line-height: 40px;
+  color: #708090;
+  margin: 8px;
+  padding: 8px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
 }
 
-#nupp3  {
-    position: absolute;
-    width: 60px;
-    height: 33px;
-    left: 470px;
-    top: 20px;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 40px;
-        color: #708090;
-        margin: 8px;
-        padding: 8px;
-        text-align: center;
-        font-size:  25px;
-        text-decoration: underline;
+#nupp3 {
+  position: absolute;
+  width: 60px;
+  height: 33px;
+  left: 470px;
+  top: 20px;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: #708090;
+  margin: 8px;
+  padding: 8px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
 }
 
 #nupp2 {
-    position: absolute;
-    width: 98px;
-    height: 48px;
-    left: 330px;
-    top: 20px; 
-    font-size: 30px;
-    line-height: 40px;
-        color: #708090;
-        margin: 10px;
-        padding: 8px;
-        text-align: center;
-        font-size: 25px;
-        text-decoration: underline;
+  position: absolute;
+  width: 98px;
+  height: 48px;
+  left: 330px;
+  top: 20px;
+  font-size: 30px;
+  line-height: 40px;
+  color: #708090;
+  margin: 10px;
+  padding: 8px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
 }
 
-#nupp3  {
-    position: absolute;
-    width: 60px;
-    height: 33px;
-    left: 470px;
-    top: 20px;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 40px;
-        color: #708090;
-        margin: 8px;
-        padding: 8px;
-        text-align: center;
-        font-size:  25px;
-        text-decoration: underline;
+#nupp3 {
+  position: absolute;
+  width: 60px;
+  height: 33px;
+  left: 470px;
+  top: 20px;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: #708090;
+  margin: 8px;
+  padding: 8px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
 }
 
 #nupp4 {
-    position: absolute;
-    top: 33px;
-    right: 30px;
-    font-size: 23px;
-    padding: 5px;
-    background-color: transparent;
-    border-color:#708090;
-    border-width: px;
-    border-radius: 47%;
-    
+  position: absolute;
+  top: 33px;
+  right: 30px;
+  font-size: 23px;
+  padding: 5px;
+  background-color: transparent;
+  border-color: #708090;
+  border-width: px;
+  border-radius: 47%;
 }
 
 #nupp5 {
-    position: absolute;
-    top: 33px;
-    right: 140px;
-    font-size: 23px;
-    padding: 5px;
-    background-color: transparent;
-    border-color:#708090;
-    border-width: 2px;
-    border-radius: 47%;
-   
-    width: 100px;
+  position: absolute;
+  top: 33px;
+  right: 140px;
+  font-size: 23px;
+  padding: 5px;
+  background-color: transparent;
+  border-color: #708090;
+  border-width: 2px;
+  border-radius: 47%;
+
+  width: 100px;
 }
 
 .header {
-    margin: 10px;
-    padding: 10px;
+  margin: 10px;
+  padding: 10px;
 }
 
-
-
 #eksemplar {
-    padding-right: 100px;
-    float: right;
+  padding-right: 100px;
+  float: right;
 }
 
 #autor {
-    display: flex;
+  display: flex;
 }
 
 #frame1 {
-    position: relative;
-    margin: 0px;
-    padding: 0px;
-    background-color: transparent;
-    border-color: black;
-    border-width: 0px;
-    border-radius: 20%;
-    overflow-y: hidden;
-    overflow-x: hidden;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  background-color: transparent;
+  border-color: black;
+  border-width: 0px;
+  border-radius: 20%;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 #hiddenReveal {
-    color: orange;
-    position: absolute;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    left: 1300px;
-    top:20px;
-    
+  color: orange;
+  position: absolute;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  left: 1300px;
+  top: 20px;
 }
 
-
 #gif {
-  display:flex;
-  
-    
+  display: flex;
 }
