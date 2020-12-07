@@ -274,25 +274,57 @@ h1 {
   align-items: center;
   border: 2px solid black;
   width: 280px;
+  padding: 10px 20px;
+}
+
+.add-to-cart {
+  background: none; 
+  border: 2px solid gray; 
   padding: 10px 20px; 
+  margin: 10px 0; 
+  font-size: 24px; 
+  cursor: pointer; 
+  width: 73%;
+  background-color: white;
+  border-color: black;
+  color: black;
+  font-family: Poppins;
   
 }
 
-#add-to-cart {
-  display:flex;
-  align-items:flex-end;
-  width: 29%;
-  background-color: white;
-  border-color: black; 
-  color: black; 
-  
-}
 .add-to-cart:hover {
   background-color: black;
   color: white;
 }
 
 #combined {
-  display:flex;
+  display: flex;
   align-items: center;
+}
+.decrement1 {
+  background: none; 
+  border: 2px solid gray; 
+  padding: 0px 9px; 
+  margin: 10px 0; 
+  font-size: 24px; 
+  cursor: pointer; 
+  width: 73%;
+  background-color: white;
+  border-color: black;
+  color: black;
+  font-family: Poppins;
+}
+
+.increment1 {
+  background: none; 
+  border: 2px solid gray; 
+  padding: 0px 6px; 
+  margin: 2px 0; 
+  font-size: 24px; 
+  cursor: pointer; 
+  width: 50%;
+  background-color: white;
+  border-color: black;
+  color: black;
+  font-family: Poppins;
 }
