@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-image: url("https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Ftaust2.jpg?v=1602790089498");
+  background-image: url("https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2F0260dc105856261.5f96cdd6e02de.jpg?v=1607382776567");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -282,10 +282,12 @@ h1 {
   display:flex;
   align-items:flex-end;
   width: 29%;
-  background-color: black;
+  background-color: transparent;
   border-color: black; 
-  color: white; 
+  color: black; 
+  
 }
+
 
 #combined {
   display:flex;
