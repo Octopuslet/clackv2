@@ -11,10 +11,18 @@ let decrement1 = document.querySelector("#decrement1");
 let amount = document.querySelector("#amount");
 let total = document.querySelector("#total");
 function increment() {
-  amount.innerHTML = parseInt(amount.innerHTML)+1;
+  let amount2 = parseInt(amount.innerHTML)+1;
+  amount.innerHTML = amount2.toFixed(0); 
+  
   
 }
 function decrement() {
-  amount.innerHTML = parseInt(amount.innerHTML)-1;
+ let amount2 = parseInt(amount.innerHTML)-1;
+  amount.innerHTML = amount2.toFixed(0);
   
+}
+
+function addToCart2() {
+  let amount2 = parseInt(amount.innerHTML);
+  total.innerHTML = 'total: ' + (amount2*10.99).toFixed(2);
 }
