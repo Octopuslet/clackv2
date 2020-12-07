@@ -24,5 +24,6 @@ function decrement() {
 
 function addToCart2() {
   let amount2 = parseInt(amount.innerHTML);
-  total.innerHTML = 'total: ' + (amount2*10.99).toFixed(2);
+  let total2 = parseInt(total.innerHTML.substring(7));
+  total.innerHTML = 'total: ' + (total2+amount2*10.99).toFixed(2);
 }
