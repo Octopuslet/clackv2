@@ -17,12 +17,8 @@ function increment() {
   
 }
 function decrement() {
-  if(amount2.amount < 1) {
-    return;
-  }
  let amount2 = parseInt(amount.innerHTML)-1;
   amount.innerHTML = amount2.toFixed(0);
-  
 }
 
 function addToCart2() {
