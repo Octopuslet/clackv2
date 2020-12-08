@@ -219,7 +219,7 @@ h1 {
   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
 }
 
-#nupp5 {
+.nupp5 {
   position: absolute;
   top: 33px;
   right: 140px;
@@ -231,6 +231,10 @@ h1 {
   border-radius: 47%;
   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
   width: 100px;
+}
+.nupp5:hover {
+  background-color: black;
+  color: white;
 }
 
 .header {
@@ -285,7 +289,7 @@ h1 {
   font-size: 24px;
   cursor: pointer;
   width: 73%;
-  background-color: white;
+  background-color: transparent;
   border-color: black;
   color: black;
   font-family: "Open Sans Condensed", sans-serif;
@@ -293,6 +297,14 @@ h1 {
 }
 
 .add-to-cart:hover {
+  background-color: black;
+  color: white;
+}
+.decrement1:hover {
+  background-color: black;
+  color: white;
+}
+.increment1:hover {
   background-color: black;
   color: white;
 }
@@ -309,7 +321,7 @@ h1 {
   font-size: 24px;
   cursor: pointer;
   width: 73%;
-  background-color: white;
+  background-color: transparent;;
   border-color: black;
   color: black;
   font-family: Poppins;
@@ -324,7 +336,7 @@ h1 {
   font-size: 24px;
   cursor: pointer;
   width: 50%;
-  background-color: white;
+  background-color: transparent;;
   border-color: black;
   color: black;
   font-family: Poppins;
@@ -337,3 +349,9 @@ h1 {
   text-align: center;
 }
 
+#amount {
+  font-size: 30px;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: 2px 8px;
+  
+}
