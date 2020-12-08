@@ -282,13 +282,30 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-direction: row;
   border: 2px solid black;
   padding: 10px 20px;
   transform: scale(0.9);
   width: 15%;
 }
 
+
 .add-to-cart {
+  background: none;
+  border: 2px solid gray;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 24px;
+  cursor: pointer;
+  width: 73%;
+  background-color: transparent;
+  border-color: black;
+  color: black;
+  font-family: "Open Sans Condensed", sans-serif;
+  -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+}
+
+.add-to-cart2 {
   background: none;
   border: 2px solid gray;
   padding: 10px 20px;
@@ -317,6 +334,10 @@ h1 {
 }
 
 #combined {
+  display: flex;
+  align-items: center;
+}
+#combined5 {
   display: flex;
   align-items: center;
 }
@@ -350,6 +371,37 @@ h1 {
   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
 }
 
+.decrement2 {
+  background: none;
+  border: 2px solid gray;
+  padding: 0px 9px;
+  margin: 10px 0;
+  font-size: 24px;
+  cursor: pointer;
+  width: 73%;
+  background-color: transparent;;
+  border-color: black;
+  color: black;
+  font-family: Poppins;
+  -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+}
+
+.increment2 {
+  background: none;
+  border: 2px solid gray;
+  padding: 0px 6px;
+  margin: 2px 0;
+  font-size: 24px;
+  cursor: pointer;
+  width: 50%;
+  background-color: transparent;;
+  border-color: black;
+  color: black;
+  font-family: Poppins;
+  -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+}
+
+
 #carttext {
   font-size: 17px;
   font-family: "Open Sans Condensed", sans-serif;
@@ -357,6 +409,19 @@ h1 {
 }
 
 #amount {
+  font-size: 30px;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: 2px 8px;
+  
+}
+
+#carttext2 {
+  font-size: 17px;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+}
+
+#amount9 {
   font-size: 30px;
   font-family: "Open Sans Condensed", sans-serif;
   margin: 2px 8px;
