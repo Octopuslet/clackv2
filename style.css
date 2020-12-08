@@ -206,17 +206,22 @@ h1 {
   text-decoration: underline;
 }
 
-#nupp4 {
+.nupp4 {
   position: absolute;
   top: 33px;
   right: 30px;
   font-size: 23px;
   padding: 5px;
   background-color: transparent;
-  border-color: #708090;
+  border-color: black;
   border-width: 2px;
   border-radius: 47%;
   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+  
+}
+.nupp4:hover {
+  background-color: black;
+  color: white;
 }
 
 .nupp5 {
@@ -226,10 +231,11 @@ h1 {
   font-size: 23px;
   padding: 5px;
   background-color: transparent;
-  border-color: #708090;
+  border-color: black;
   border-width: 2px;
   border-radius: 47%;
   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+  
   width: 100px;
 }
 .nupp5:hover {
