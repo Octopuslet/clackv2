@@ -121,17 +121,17 @@
         width="250"
         alt="404 image"
       />
-      <p id="total">
+      <p id="total1" class="total">
         Total: 0
       </p>
       <div id="combined">
-        <button class="decrement1" onclick="decrement()">-</button>
-        <p id="amount">
+        <button id="decrement1" class="decrement" onclick="decrementAmount(0)">-</button>
+        <p id="amount1" class="amount">
           1
         </p>
-        <button class="increment1" onclick="increment()">+</button>
+        <button id="increment1" class="increment" onclick="incrementAmount(0)">+</button>
       </div>
-      <button class="add-to-cart" onclick="addToCart2()">Add to cart</button>
+      <button id="add-to-cart1" class="add-to-cart"  onclick="changeTotal(0)">Add to cart</button>
     </div>
 
     <div id="gif2">
@@ -141,17 +141,17 @@
         width="250"
         alt="girl image"
       />
-      <p id="totals">
+      <p id="total2" class="total">
         Total: 0
       </p>
       <div id="combined5">
-        <button class="decrement2" onclick="decrements()">-</button>
-        <p id="amount9">
+        <button id="decrement2" class="decrement" onclick="decrementAmount(1)">-</button>
+        <p id="amount2" class="amount">
           1
         </p>
-        <button class="increment2" onclick="increments()">+</button>
+        <button id="increment2" class="increment" onclick="incrementAmount(1)">+</button>
       </div>
-      <button class="add-to-cart3" onclick="addToCarts()">Add to cart</button>
+      <button id="add-to-cart2" class="add-to-cart" onclick="changeTotal(1)">Add to cart</button>
     </div>
     <script src="script.js"></script>
   </body>

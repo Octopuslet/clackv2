@@ -74,19 +74,19 @@ let total = [
     document.querySelector("#total2"),
 ];
 
-function increment(id) {
-    let _amount = parseInt(amount[id]-innerHTML)+1;
+function incrementAmount(id) {
+    let _amount = parseInt(amount[id].innerHTML)+1;
     amount[id].innerHTML = _amount.toFixed(0);
 }
 
-function decrement(id) {
-    let _amount = parseInt(amount[id]-innerHTML)-1;
+function decrementAmount(id) {
+    let _amount = parseInt(amount[id].innerHTML)-1;
     if(_amount > 0) {
         amount[id].innerHTML = _amount.toFixed(0);
     }
 }
 
-function addToCart(id) {
+function changeTotal(id) {
     let _amount = parseInt(amount[id].innerHTML);
     let _total = parseInt(total.innerHTML.substring(7));
     total[id].innerHTML = 'total: ' + (_total+_amount*10.99).toFixed(2);
