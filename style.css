@@ -287,7 +287,7 @@ h1 {
   transform: scale(0.9);
   width: 15%;
   position:relative;
-  
+  -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
 }
 
 #gif2 {
@@ -299,7 +299,7 @@ h1 {
   transform: scale(0.9);
   width: 15%;
   position:relative;
-  
+  -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
 }
 
 
