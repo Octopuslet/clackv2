@@ -5,7 +5,7 @@ function revealMe() {
 //find the secret message on the website
 //(for function revealMe when i want to change what it does) document.getElementById("hiddenReveal").style.display = 'block';
 
-let addToCart = document.querySelector("#add-to-cart");
+/* let addToCart = document.querySelector("#add-to-cart");
 let increment1 = document.querySelector("#increment1");
 let decrement1 = document.querySelector("#decrement1");
 let amount = document.querySelector("#amount");
@@ -47,6 +47,47 @@ function decrements() {
 
 function addToCarts() {
   let amount5 = parseInt(amount9.innerHTML);
-  let totals = parseInt(totals.innerHTML.substring(7));
-  totals.innerHTML = 'total: ' + (totals+amount5*10.99).toFixed(2);
+  let total3 = parseInt(totals.innerHTML.substring(7));
+  totals.innerHTML = 'total: ' + (total3+amount5*10.99).toFixed(2);
+}*/
+
+
+
+let addToCart = [
+    document.querySelector("#add-to-cart1"),
+    document.querySelector("#add-to-cart2"),
+];
+let increment = [
+    document.querySelector("#increment1"),
+    document.querySelector("#increment2"),
+];
+let decrement = [
+    document.querySelector("#decrement1"),
+    document.querySelector("#decrement2"),
+];
+let amount = [
+    document.querySelector("#amount1"),
+    document.querySelector("#amount2"),
+];
+let total = [
+    document.querySelector("#total1"),
+    document.querySelector("#total2"),
+];
+
+function increment(id) {
+    let _amount = parseInt(amount[id]-innerHTML)+1;
+    amount[id].innerHTML = _amount.toFixed(0);
+}
+
+function decrement(id) {
+    let _amount = parseInt(amount[id]-innerHTML)-1;
+    if(_amount > 0) {
+        amount[id].innerHTML = _amount.toFixed(0);
+    }
+}
+
+function addToCart(id) {
+    let _amount = parseInt(amount[id].innerHTML);
+    let _total = parseInt(total.innerHTML.substring(7));
+    total[id].innerHTML = 'total: ' + (_total+_amount*10.99).toFixed(2);
 }
