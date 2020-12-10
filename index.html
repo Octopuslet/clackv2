@@ -113,45 +113,74 @@
         allowfullscreen
       ></iframe>
     </div>
-
-    <div id="gif">
-      <p id="carttext">Bad gateway animation <br />by John Doe</p>
-      <img
-        src="https://cdn.glitch.com/0e4d1ff3-5897-47c5-9711-d026c01539b8%2Fbddfd6e4434f42662b009295c9bab86e.gif?v=1573157191712"
-        width="250"
-        alt="404 image"
-      />
-      <p id="total1" class="total">
-        Total: 0
-      </p>
-      <div id="combined">
-        <button id="decrement1" class="decrement" onclick="decrementAmount(0)">-</button>
-        <p id="amount1" class="amount">
-          1
+    <div class="products">
+      <div id="gif">
+        <p id="carttext">Bad gateway animation <br />by John Doe</p>
+        <img
+          src="https://cdn.glitch.com/0e4d1ff3-5897-47c5-9711-d026c01539b8%2Fbddfd6e4434f42662b009295c9bab86e.gif?v=1573157191712"
+          width="250"
+          alt="404 image"
+        />
+        <p id="total1" class="total">
+          Total: 0
         </p>
-        <button id="increment1" class="increment" onclick="incrementAmount(0)">+</button>
+        <div id="combined">
+          <button
+            id="decrement1"
+            class="decrement"
+            onclick="decrementAmount(0)"
+          >
+            -
+          </button>
+          <p id="amount1" class="amount">
+            1
+          </p>
+          <button
+            id="increment1"
+            class="increment"
+            onclick="incrementAmount(0)"
+          >
+            +
+          </button>
+        </div>
+        <button id="add-to-cart1" class="add-to-cart" onclick="changeTotal(0)">
+          Add to cart
+        </button>
       </div>
-      <button id="add-to-cart1" class="add-to-cart"  onclick="changeTotal(0)">Add to cart</button>
-    </div>
 
-    <div id="gif2">
-      <p id="carttext2">Sitting below the nightlit sky<br />by John Doe</p>
-      <img
-        src="https://media.giphy.com/media/tIwmTQ64D52XTuL8xd/giphy.gif"
-        width="250"
-        alt="girl image"
-      />
-      <p id="total2" class="total">
-        Total: 0
-      </p>
-      <div id="combined5">
-        <button id="decrement2" class="decrement" onclick="decrementAmount(1)">-</button>
-        <p id="amount2" class="amount">
-          1
+      <div id="gif2">
+        <p id="carttext2">Sitting below the nightlit sky<br />by John Doe</p>
+        <img
+          src="https://media.giphy.com/media/tIwmTQ64D52XTuL8xd/giphy.gif"
+          width="250"
+          alt="girl image"
+        />
+        <p id="total2" class="total">
+          Total: 0
         </p>
-        <button id="increment2" class="increment" onclick="incrementAmount(1)">+</button>
+        <div id="combined5">
+          <button
+            id="decrement2"
+            class="decrement"
+            onclick="decrementAmount(1)"
+          >
+            -
+          </button>
+          <p id="amount2" class="amount">
+            1
+          </p>
+          <button
+            id="increment2"
+            class="increment"
+            onclick="incrementAmount(1)"
+          >
+            +
+          </button>
+        </div>
+        <button id="add-to-cart2" class="add-to-cart" onclick="changeTotal(1)">
+          Add to cart
+        </button>
       </div>
-      <button id="add-to-cart2" class="add-to-cart" onclick="changeTotal(1)">Add to cart</button>
     </div>
     <script src="script.js"></script>
   </body>
