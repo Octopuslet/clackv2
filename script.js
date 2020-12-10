@@ -46,7 +46,7 @@ function decrements() {
 }
 
 function addToCarts() {
-  let amount9 = parseInt(amount9.innerHTML);
+  let amount5 = parseInt(amount9.innerHTML);
   let totals = parseInt(totals.innerHTML.substring(7));
-  totals.innerHTML = 'total: ' + (totals+amount9*10.99).toFixed(2);
+  totals.innerHTML = 'total: ' + (totals+amount5*10.99).toFixed(2);
 }
