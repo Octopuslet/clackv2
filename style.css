@@ -285,7 +285,7 @@ h1 {
   border: 2px solid black;
   padding: 10px 20px;
   transform: scale(0.9);
-  width: 15%;
+  width: 20%;
   position:relative;
   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
 }
@@ -297,7 +297,7 @@ h1 {
   border: 2px solid black;
   padding: 10px 20px;
   transform: scale(0.9);
-  width: 15%;
+  width: 20%;
   position:relative;
   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
 }
