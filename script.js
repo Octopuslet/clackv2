@@ -1,4 +1,6 @@
-
+let price = [
+  10.99
+]
 
 let addToCart = [
     document.querySelector("#add-to-cart1"),
@@ -38,5 +40,5 @@ function changeTotal(id) {
     console.log(_amount)
     let _total = parseInt(total[id].innerHTML.trim().substring(7));
     console.log(total[id].innerHTML)
-    total[id].innerHTML = 'total: ' + (_total+_amount*10.99).toFixed(2);
+    total[id].innerHTML = 'total: ' + (_total+_amount*10.99).toFixed(2)+" €";
 }

@@ -288,6 +288,7 @@ h1 {
   width: 20%;
   position:relative;
   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+  justify-content:space-between;
 }
 
 #gif2 {
@@ -300,6 +301,7 @@ h1 {
   width: 20%;
   position:relative;
   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+  justify-content:space-between;
 }
 
 
