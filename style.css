@@ -101,6 +101,14 @@ body {
 #top-text1 {
   text-align: center;
   font-size: 60px;
+  color: #013C6F;
+}
+
+#top-text2 {
+  text-align: center;
+  font-size: 30px;
+  padding; 5px;
+  color: #013C6F;
 }
 /* #ikoon2 {
   position: relative;
