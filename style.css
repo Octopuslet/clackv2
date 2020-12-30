@@ -13,6 +13,10 @@ body {
   margin: 0;
 }
 
+.page {
+  width: 100vw;
+  height: 100vh;
+}
 
 #ikoon2 {
   position: relative;
