@@ -132,14 +132,7 @@ h1 {
   font-size: 25px;
 }
 
-#imagetext {
-  position: relative;
-  color: #9BB1FF;
-  margin-left: 50px;
-  font-family: sans-serif;
-  font-size: 25px;
-  color: darkgreen;
-}
+
 
 #nupp1 {
   position: absolute;
@@ -249,14 +242,9 @@ h1 {
   padding: 10px;
 }
 
-#eksemplar {
-  padding-right: 100px;
-  float: right;
-}
 
-#autor {
-  display: flex;
-}
+
+
 
 #frame1 {
   position: relative;
