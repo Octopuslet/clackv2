@@ -1,4 +1,4 @@
-body {
+/*body {
   margin: 0px;
   padding: 0px;
   background-image: url("https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Ftaust2.jpg?v=1602790089498");
@@ -6,8 +6,12 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+}*/
+body {
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: 100;
+  margin: 0;
 }
-
 
 
 #ikoon2 {
