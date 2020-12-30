@@ -73,6 +73,14 @@ body {
       background: linear-gradient(0deg, rgba(10,10,10,1) 49%, rgba(1,60,111,1) 100%);  
 }
     
+.top-texts {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.top-texts p {
+  margin: 0;
 
 
 
