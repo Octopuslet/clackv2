@@ -49,8 +49,8 @@ body {
 
 #page1 h2 {
   z-index: 1;
-  border-top: solid 2px #D8315B;
-  border-bottom: solid 2px #D8315B;
+  border-top: solid 2px #99C8F4;
+  border-bottom: solid 2px #99C8F4;
   padding: 5px;
   color: white;
   font-family: "Staatliches";
@@ -61,7 +61,13 @@ body {
   
 }
 
-#ikoon2 {
+.shapes {
+  background: #0A0A0A
+}
+
+
+
+/* #ikoon2 {
   position: relative;
   width: 67px;
   height: 65px;
@@ -96,7 +102,7 @@ h1 {
   
 }
 
-#header a {
+/* #header a {
   text-align: right;
   margin-top: 10px;
   float: right;
