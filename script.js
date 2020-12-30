@@ -1,4 +1,4 @@
-let options = $('#page2 > .options');
+let options = $('#page2 > #page3');
 
 function commandsOnClick(page) {
   window.scrollTo(0, window.innerHeight * page);
@@ -10,7 +10,7 @@ function letThereBeLight() {
   
   
   
-  options.css('display', 'visible');
+  options.css('display', 'block');
 }
 /*let price = [
   10.99
