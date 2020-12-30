@@ -1,8 +1,17 @@
+let options = $('#page2 > .options');
 
 function commandsOnClick(page) {
   window.scrollTo(0, window.innerHeight * page);
 }
 
+
+function letThereBeLight() {
+  
+  
+  
+  
+  options.css('display', 'visible');
+}
 /*let price = [
   10.99
 ]

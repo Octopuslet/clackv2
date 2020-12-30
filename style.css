@@ -148,6 +148,10 @@ body {
   background-color: black;
   color: white;
 }
+
+#page3 {
+  display: none;
+}
 /* #ikoon2 {
   position: relative;
   width: 67px;
