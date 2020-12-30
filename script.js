@@ -3,7 +3,7 @@ function commandsOnClick(page) {
   window.scrollTo(0, window.innerHeight * page);
 }
 
-let price = [
+/*let price = [
   10.99
 ]
 
@@ -46,7 +46,7 @@ function changeTotal(id) {
     let _total = parseInt(total[id].innerHTML.trim().substring(7));
     console.log(total[id].innerHTML)
     total[id].innerHTML = 'total: ' + (_total+_amount*10.99).toFixed(2)+" €";
-}
+} */
 
 
 
