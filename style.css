@@ -58,15 +58,18 @@ body {
 
 #page1-image {
   height: auto;
-  width: 16px;
+  width: 48px;
   
 }
 
 .page1-button {
-  background: transparent;
-  border-radius: 2px;
+  border-color: transparent;
+  border-radius: 22px;
   width: 64px;
   height: 64px;
+  background: #0A0A0A;
+ 
+  
 }
 #page2 .page2-pictures{
   
