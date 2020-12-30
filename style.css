@@ -13,6 +13,47 @@ body {
   margin: 0;
 }
 
+
+
+#page1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fec3b24105856261.5f914ae2b8a59.jpg?v=1607383241608');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+#page1 .background {
+  z-index: 0;
+  
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  object-fit: cover;
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+#page1 h2 {
+  z-index: 1;
+  border-top: solid 2px #D8315B;
+  border-bottom: solid 2px #D8315B;
+  padding: 5px;
+  color: white;
+  font-family: "Staatliches";
+  letter-spacing: 8px;
+}
+
 .page {
   width: 100vw;
   height: 100vh;

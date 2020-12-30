@@ -45,7 +45,7 @@ function changeTotal(id) {
 
 
 
-/*
+
 var bgDiv = $('#page1');
 var bgImg = $('#page1 > .background');
 
@@ -74,4 +74,4 @@ function nextBackground() {
 setInterval(nextBackground, 1500);
 
 bgDiv.css('background-image', 'url('+backgrounds[0]+')');
-bgImg.attr('src', backgrounds[0]); */
+bgImg.attr('src', backgrounds[0]); 
