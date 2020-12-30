@@ -13,7 +13,10 @@ body {
   margin: 0;
 }
 
-
+.page {
+  width: 100vw;
+  height: 100vh;
+}
 
 #page1 {
   display: flex;
@@ -54,9 +57,8 @@ body {
   letter-spacing: 8px;
 }
 
-.page {
-  width: 100vw;
-  height: 100vh;
+#page2 {
+  background: #0A0A0A;
 }
 
 #ikoon2 {
