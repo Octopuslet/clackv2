@@ -124,6 +124,30 @@ body {
   padding; 5px;
   color: #013C6F;
 }
+
+#page2 .top-button {
+  margin: 16px 25%;
+  
+  
+  border: 2px solid gray;
+  font-size: 16px;
+  letter-spacing: 3px;
+  height: 32px;
+  cursor: pointer;
+  width: 20%;
+  background-color: transparent;
+  border-color: black;
+  color: black;
+  
+  -webkit-border-radius: 28;  
+  -moz-border-radius: 28;  
+  border-radius: 28px;
+}
+
+#page2 .top-button button:hover {
+  background-color: black;
+  color: white;
+}
 /* #ikoon2 {
   position: relative;
   width: 67px;
