@@ -56,12 +56,18 @@ body {
   letter-spacing: 8px;
 }
 
-#page1 .page1-button{
-    padding: 8px 8px 8px 32px;   
-    background: white url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fthick-arrow-pointing-down.png?v=1609364797583');
-    background-position: 8px 8px;
-    background-repeat: no-repeat;
-}​
+#page1-image {
+  height: auto;
+  width: 16px;
+  
+}
+
+.page1-button {
+  background: transparent;
+  border-radius: 2px;
+  width: 64px;
+  height: 64px;
+}
 #page2 .page2-pictures{
   
 }
