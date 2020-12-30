@@ -62,9 +62,12 @@ body {
 }
 
 #circle {
-      positi
-      width: 200px;
-      height: 200px;
+  position:relative;
+  top: 200px;
+  left: 1050px;
+  width: 200px;
+  height: 200px; 
+  
       border-radius: 50%;
       background: rgb(10,10,10);
       background: linear-gradient(0deg, rgba(10,10,10,1) 49%, rgba(1,60,111,1) 100%);  
