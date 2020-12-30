@@ -8,15 +8,7 @@ body {
   background-repeat: no-repeat;
 }
 
-#ikoon1 {
-  position: absolute;
-  width: 67px;
-  height: 65px;
-  left: 905px;
-  top: 25px;
-  bottom: 10px;
-  background: url("ikoon7.png");
-}
+
 
 #ikoon2 {
   position: relative;
@@ -28,37 +20,6 @@ body {
   background: url("ikoon8.png");
 }
 
-
-
-#ikoon4 {
-  position: absolute;
-  width: 20px;
-  height: auto;
-  left: 225px;
-  top: 48px;
-  bottom: 10px;
-  background: url("homeicon.png");
-}
-
-#ikoon5 {
-  position: absolute;
-  width: 20px;
-  height: auto;
-  left: 335px;
-  top: 48px;
-  bottom: 10px;
-  background: url("about us.png");
-}
-
-#ikoon6 {
-  position: absolute;
-  width: 20px;
-  height: auto;
-  left: 465px;
-  top: 48px;
-  bottom: 10px;
-  background: url("dollar.png");
-}
 
 h1 {
   position: absolute;
@@ -127,7 +88,7 @@ h1 {
 
 
 
-#nupp1 {
+/*#nupp1 {
   position: absolute;
   width: 60px;
   height: 33px;
@@ -193,47 +154,12 @@ h1 {
   text-decoration: underline;
 }
 
-.nupp4 {
-  position: absolute;
-  top: 33px;
-  right: 30px;
-  font-size: 23px;
-  padding: 5px;
-  background-color: transparent;
-  border-color: black;
-  border-width: 2px;
-  border-radius: 47%;
-  -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
-  
-}
-.nupp4:hover {
-  background-color: black;
-  color: white;
-}
 
-.nupp5 {
-  position: absolute;
-  top: 33px;
-  right: 140px;
-  font-size: 23px;
-  padding: 5px;
-  background-color: transparent;
-  border-color: black;
-  border-width: 2px;
-  border-radius: 47%;
-  -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
-  
-  width: 100px;
-}
-.nupp5:hover {
-  background-color: black;
-  color: white;
-}
 
 .header {
   margin: 10px;
   padding: 10px;
-}
+}*/
 
 
 
