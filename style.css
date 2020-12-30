@@ -23,7 +23,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
   background-image: url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2F41D6D38B-50E3-409D-9F23-516B7AF306D7.JPEG?v=1609357721911');
   background-position: center;
   background-size: cover;
@@ -57,6 +56,12 @@ body {
   letter-spacing: 8px;
 }
 
+#page1 .page1-button{
+    padding: 8px 8px 8px 32px;   
+    background: white url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fthick-arrow-pointing-down.png?v=1609364797583');
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+}​
 #page2 .page2-pictures{
   
 }
