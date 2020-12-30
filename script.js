@@ -1,3 +1,8 @@
+
+function commandsOnClick(page) {
+  window.scrollTo(0, window.innerHeight * page);
+}
+
 let price = [
   10.99
 ]
@@ -43,8 +48,8 @@ function changeTotal(id) {
     total[id].innerHTML = 'total: ' + (_total+_amount*10.99).toFixed(2)+" €";
 }
 
-function commandsOnClick(page) {
-  window.scrollTo(0, window.innerHeight * page);
-}
+
+
+
 
 
