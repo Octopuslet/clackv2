@@ -61,7 +61,9 @@ body {
   width: 48px;
   
 }
-
+.page1-buttons {
+  display:flex;
+}
 .page1-button {
   border-color: transparent;
   border-radius: 22px;
@@ -71,6 +73,8 @@ body {
  
   
 }
+
+.page
 #page2 .page2-pictures{
   
 }
@@ -128,27 +132,30 @@ body {
   
 }
 
-#page2 .top-button {
+#page2 a {
   margin: 16px 25%;
   
 
   border: 2px solid gray;
   font-size: 16px;
   letter-spacing: 3px;
-  height: 32px;
+  height: 25px;
   cursor: pointer;
   width: 20%;
   background-color: transparent;
   border-color: black;
   color: black;
   font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-decoration: none;
+
   
   -webkit-border-radius: 28;  
   -moz-border-radius: 28;  
   border-radius: 28px;
 }
 
-#page2 .top-button:hover {
+#page2 a:hover {
   background-color: black;
   color: white;
 }
