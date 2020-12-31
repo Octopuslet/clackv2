@@ -19,10 +19,25 @@ body {
 }
 
 .header {
-  display:flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  padding: 10px 16px;
+  background: #0A0A0A;
+  color: orange;
 }
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 
 #page1 {
   display: flex;
