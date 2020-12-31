@@ -20,8 +20,9 @@ body {
 
 .header {
   padding: 10px 16px;
-  background: #0A0A0A;
-  color: orange;
+  background-image: url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2F41D6D38B-50E3-409D-9F23-516B7AF306D7.JPEG?v=1609357721911');
+  
+  mix-blend-mode: difference;
 }
 
 .content {
@@ -148,12 +149,12 @@ body {
   font-size: 60px;
   color: #013C6F;
   font-family: 'Open Sans Condensed', sans-serif;
-  -webkit-animation: fadein 15s
+  -webkit-animation: fadein 10s
 }
 
 @-webkit-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 3; }
+    to   { opacity: 10; }
 }
 
 
@@ -166,7 +167,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   width: 38em;
-  animation: type 12s steps(1100, end);
+  animation: type 5s steps(1100, end);
   
 }
 
