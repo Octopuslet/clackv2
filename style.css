@@ -149,14 +149,10 @@ body {
   color: #013C6F;
   font-family: 'Open Sans Condensed', sans-serif;
   
-  
- /*   -webkit-transition: opacity 2s ease-in;
-       -moz-transition: opacity 2s ease-in;
-        -ms-transition: opacity 2s ease-in;
-         -o-transition: opacity 2s ease-in;
-            transition: opacity 2s ease-in;
-  */
+
 }
+
+
 
 #top-text2 {
   text-align: center;
@@ -164,8 +160,16 @@ body {
   padding; 5px;
   color: #013C6F;
   font-family: 'Roboto Mono', monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 38em;
+  animation: type 6s steps(1100, end);
   
 }
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
 
 #page2 a {
   margin: 16px 25%;
@@ -174,7 +178,7 @@ body {
   border: 2px solid gray;
   font-size: 16px;
   letter-spacing: 3px;
-  height: 25px;
+  height: 28px;
   cursor: pointer;
   width: 20%;
   background-color: transparent;
@@ -202,7 +206,7 @@ body {
 #top-text1 {
     text-align: center;
 
-    -webkit-animation: fadein 8s;
+    -webkit-animation: fadein 15s;
        
 }
 
