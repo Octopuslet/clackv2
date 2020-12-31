@@ -1,4 +1,4 @@
-let page3 = $('#page2 > .top-button-test');
+let topButtonTest = $('#page2 > .top-button-test');
 
 function commandsOnClick(page) {
   window.scrollTo(0, window.innerHeight * page);
@@ -10,7 +10,7 @@ function letThereBeLight() {
   
   
   
-  page3.css('visibility', 'visible');
+  topButtonTest.css('visibility', 'visible');
 }
 /*let price = [
   10.99
