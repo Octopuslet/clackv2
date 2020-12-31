@@ -1,14 +1,25 @@
+let topButtonTest = $('#page2 > .top-button-test');
+
 function commandsOnClick(page) {
   window.scrollTo(0, window.innerHeight * page);
 }
 
 
-$(document).ready(function(){
+function letThereBeLight() {
+  
+  
+  
+  
+  topButtonTest.css('visibility', 'visible');
+}
+
+
+$(document).ready(function scrolling(){
   // Add smooth scrolling to all links
-  $("top-button").on('click', function(event) {
+  $("button").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "top-button") {
+    if (this.hash !== "") {
       // Prevent default anchor click behavior
       event.preventDefault();
 
