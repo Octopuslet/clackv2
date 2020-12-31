@@ -124,6 +124,7 @@ body {
   font-size: 30px;
   padding; 5px;
   color: #013C6F;
+  font-family: 'Roboto Mono', monospace;
   
 }
 
@@ -140,6 +141,7 @@ body {
   background-color: transparent;
   border-color: black;
   color: black;
+  font-family: 'Playfair Display', serif;
   
   -webkit-border-radius: 28;  
   -moz-border-radius: 28;  
