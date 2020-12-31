@@ -28,7 +28,11 @@ body {
   background-size: cover;
 }
 
-
+#page1 .top {
+  position:relative;
+  top: 5px;
+  right: 4px;
+}
 
 #page1 .background {
   z-index: 0;
@@ -48,12 +52,11 @@ body {
 
 #page1 h2 {
   z-index: 1;
-  border-top: solid 2px #99C8F4;
-  border-bottom: solid 2px #99C8F4;
-  padding: 5px;
+  padding: 3px;
   color: white;
   font-family: "Staatliches";
   letter-spacing: 8px;
+  float: right;
 }
 
 #page1-image {
@@ -63,6 +66,9 @@ body {
 }
 .page1-buttons {
   display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .page1-button {
   border-color: transparent;
@@ -74,7 +80,7 @@ body {
   
 }
 
-.page
+
 #page2 .page2-pictures{
   
 }
