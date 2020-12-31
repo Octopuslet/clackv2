@@ -44,9 +44,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2F41D6D38B-50E3-409D-9F23-516B7AF306D7.JPEG?v=1609357721911');
+  background-image: url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fec3b24105856261.5f914ae2b8a59.jpg?v=1609444956331');
   background-position: center;
   background-size: cover;
+
 }
 
 #page1 .top {
@@ -109,7 +110,7 @@ body {
 #circle{
   position:relative;
   top: 200px;
-  left: 1050px;
+  left: 1405px;
   width: 200px;
   height: 200px; 
   margin: 0;
@@ -122,7 +123,7 @@ body {
 #circle2 {
   position:relative;
   top: 200px;
-  left: 400px;
+  left: 200px;
   width: 200px;
   height: 200px; 
   margin: 0;
