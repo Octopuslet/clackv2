@@ -148,10 +148,13 @@ body {
   font-size: 60px;
   color: #013C6F;
   font-family: 'Open Sans Condensed', sans-serif;
-  
-
+  -webkit-animation: fadein 15s
 }
 
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 3; }
+}
 
 
 #top-text2 {
@@ -163,8 +166,15 @@ body {
   white-space: nowrap;
   overflow: hidden;
   width: 38em;
-  animation: type 6s steps(1100, end);
+  animation: type 12s steps(1100, end);
   
+}
+
+.top h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 3.5em;
+  animation: type 0.8s steps(90, end);
 }
 
 @keyframes type{ 
@@ -203,17 +213,10 @@ body {
   
 }
 
-#top-text1 {
-    text-align: center;
 
-    -webkit-animation: fadein 15s;
-       
-}
 
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 3; }
-}
+
+
 
 
 
