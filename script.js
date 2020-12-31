@@ -55,6 +55,12 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+
+
+
+
+
 /*let price = [
   10.99
 ]

@@ -148,6 +148,14 @@ body {
   font-size: 60px;
   color: #013C6F;
   font-family: 'Open Sans Condensed', sans-serif;
+  
+  
+ /*   -webkit-transition: opacity 2s ease-in;
+       -moz-transition: opacity 2s ease-in;
+        -ms-transition: opacity 2s ease-in;
+         -o-transition: opacity 2s ease-in;
+            transition: opacity 2s ease-in;
+  */
 }
 
 #top-text2 {
@@ -191,38 +199,12 @@ body {
   
 }
 
- #octagon {
-      width: 100px;
-      height: 100px;
-      background: red;
-      position: relative;
-    }
-    #octagon:before {
-      content: "";
-      width: 100px;
-      height: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-      border-bottom: 29px solid red;
-      border-left: 29px solid #eee;
-      border-right: 29px solid #eee;
-    }
-    #octagon:after {
-      content: "";
-      width: 100px;
-      height: 0;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      border-top: 29px solid red;
-      border-left: 29px solid #eee;
-      border-right: 29px solid #eee;
-    }
-  
+#page2 p {
+    text-align: center;
 
-
-
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       
+}
 
 @-webkit-keyframes fadein {
     from { opacity: 0; }
