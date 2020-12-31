@@ -18,6 +18,12 @@ body {
   height: 100vh;
 }
 
+.header {
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 #page1 {
   display: flex;
   flex-direction: column;
@@ -31,7 +37,7 @@ body {
 #page1 .top {
   position:relative;
   top: 5px;
-  right: 4px;
+  right: 12px;
 }
 
 #page1 .background {
@@ -61,7 +67,7 @@ body {
 
 #page1-image {
   height: auto;
-  width: 48px;
+  width: 32px;
   
 }
 .page1-buttons {
