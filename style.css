@@ -150,7 +150,7 @@ body {
 }
 
 #page3 {
-  display: none;
+  visibility: hidden;
 }
 /* #ikoon2 {
   position: relative;
