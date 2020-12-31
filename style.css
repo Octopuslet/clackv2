@@ -116,6 +116,7 @@ body {
   text-align: center;
   font-size: 60px;
   color: #013C6F;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #top-text2 {
@@ -123,6 +124,7 @@ body {
   font-size: 30px;
   padding; 5px;
   color: #013C6F;
+  
 }
 
 #page2 .top-button {
