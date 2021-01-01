@@ -21,16 +21,14 @@ body {
 
 
 .header {
+  z-index: 1000;
+  psition: fixed;
   background: transparent;
   padding: 10px 16px;
-  mix-blend-mode: difference;
-}
-
-.header h2 {
-  mix-blend-mode: color-dodge;
- 
   
 }
+
+
 
 .content {
   padding: 16px;
@@ -43,7 +41,7 @@ body {
 }
 
 .sticky + .content {
-  padding-top: 102px;
+  padding-top: 60px;
 }
 
 
