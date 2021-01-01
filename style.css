@@ -168,7 +168,7 @@ body {
   color: #013C6F;
   font-family: 'Roboto Mono', monospace;
   overflow: hidden;
-  border-right: .15em solid orange;
+  border-right: .15em solid gray;
   white-space: nowrap;
   letter-spacing: 2px;
   width: 38em; 
@@ -177,8 +177,21 @@ body {
   
 }
 
+.top-text2-typewriter{
+  animation: typewriter 4s steps(50000) 1s 1 normal both,
+             blinkTextCursor 500ms steps(50000) infinite normal;
+}
+
+.top-text3-typewriter{
+  animation: typewriter 4s steps(50000) 1s 1 normal both,
+             blinkTextCursor 500ms steps(50000) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 42em;}
+}
 @keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
+  from{border-right-color: rgba(12,15,16,.75);}
   to{border-right-color: transparent;}
 }
 
@@ -247,36 +260,8 @@ body {
 
 
 
-
-
-
  
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-}
 
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 18em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(12,15,16,.75);}
-  to{border-right-color: transparent;}
-}
 
 
 
