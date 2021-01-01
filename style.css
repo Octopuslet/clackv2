@@ -38,6 +38,14 @@ body {
   padding: 16px;
 }
 
+#homebutton {
+  text-decoration: none;
+  font-size: 30px;
+  
+}
+
+
+
 #page1 {
   display: flex;
   flex-direction: column;
@@ -263,176 +271,6 @@ body {
   z-index: -2;
   background-color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-/* #ikoon2 {
-  position: relative;
-  width: 67px;
-  height: 65px;
-  left: 900px;
-  top: 20px;
-  bottom: 10px;
-  background: url("ikoon8.png");
-}
-
-
-h1 {
-  position: absolute;
-  width: 197px;
-  height: 49px;
-  left: 80px;
-  top: 15px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 50px;
-  line-height: 15px;
-  font-family: "ZCOOL QingKe HuangYou", cursive;
-}
-
-#header {
-  color: #708090;
-  padding: 5px;
-  margin: 0px;
-  border-bottom: #708090 5px solid;
-  background-color: #ffffff;
-  height: 90px;
-  text-align: left;
-  
-}
-
-/* #header a {
-  text-align: right;
-  margin-top: 10px;
-  float: right;
-}
-
-#nupud a:hover {
-  color: #445691;
-}
-
-#nupud title {
-  text-align: right;
-}
-
-#algus h5 {
-  margin: 0px;
-  padding: 5px;
-  position: relative;
-}
-
-#info {
-  position: relative;
-}
-
-#algus {
-  color: #BFD7FF;
-  font-size: 85px;
-  text-align: left;
-  margin-left: 50px;
-  margin-top: 80px;
-  font-weight: bold;
-  font-family: Impact, "Arial Narrow Bold", sans-serif;
-}
-#algusetekst {
-  position: relative;
-  color: #6F89D8;
-  margin-left: 50px;
-  font-family: sans-serif;
-  font-size: 25px;
-}
-
-
-
-/*#nupp1 {
-  position: absolute;
-  width: 60px;
-  height: 33px;
-  left: 230px;
-  top: 20px;
-  font-size: 30px;
-  line-height: 40px;
-  color: #708090;
-  margin: 8px;
-  padding: 8px;
-  text-align: center;
-  font-size: 25px;
-  text-decoration: underline;
-}
-
-#nupp3 {
-  position: absolute;
-  width: 60px;
-  height: 33px;
-  left: 470px;
-  top: 20px;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 40px;
-  color: #708090;
-  margin: 8px;
-  padding: 8px;
-  text-align: center;
-  font-size: 25px;
-  text-decoration: underline;
-}
-
-#nupp2 {
-  position: absolute;
-  width: 98px;
-  height: 48px;
-  left: 330px;
-  top: 20px;
-  font-size: 30px;
-  line-height: 40px;
-  color: #708090;
-  margin: 10px;
-  padding: 8px;
-  text-align: center;
-  font-size: 25px;
-  text-decoration: underline;
-}
-
-#nupp3 {
-  position: absolute;
-  width: 60px;
-  height: 33px;
-  left: 470px;
-  top: 20px;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 40px;
-  color: #708090;
-  margin: 8px;
-  padding: 8px;
-  text-align: center;
-  font-size: 25px;
-  text-decoration: underline;
-}
-
-
-
-.header {
-  margin: 10px;
-  padding: 10px;
-}*/
-
-
-
-
 
 
 
