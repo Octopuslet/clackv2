@@ -160,29 +160,26 @@ body {
 }
 
 
-#top-text2 {
+
+.top-text2 {
   text-align: center;
   font-size: 30px;
   padding; 5px;
   color: #013C6F;
   font-family: 'Roboto Mono', monospace;
-  white-space: nowrap;
   overflow: hidden;
   border-right: .15em solid orange;
   white-space: nowrap;
-  margin: 0 auto;
   letter-spacing: 2px;
-  /*width: 38em; 8/
-  /*animation: type 5s steps(1100, end); */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+  width: 38em; 
+  animation: type 5s steps(1100, end); 
+  
   
 }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
 }
 
 .top h2 {
