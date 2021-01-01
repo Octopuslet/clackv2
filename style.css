@@ -161,6 +161,22 @@ body {
 
 
 
+.top-text2-top-text2-typewriter{
+  text-align: center;
+  font-size: 30px;
+  padding; 5px;
+  color: #013C6F;
+  font-family: 'Roboto Mono', monospace;
+  overflow: hidden;
+  border-right: .15em solid gray; 
+  white-space: nowrap;
+  letter-spacing: 2px;
+  width: 38em; 
+  /*animation: type 5s steps(1100, end); */
+  
+  
+}
+
 .top-text2 {
   text-align: center;
   font-size: 30px;
@@ -168,27 +184,24 @@ body {
   color: #013C6F;
   font-family: 'Roboto Mono', monospace;
   overflow: hidden;
-  border-right: .15em solid gray;
+  /*border-right: .15em solid gray; */
   white-space: nowrap;
   letter-spacing: 2px;
   width: 38em; 
-  animation: type 5s steps(1100, end); 
+  /*animation: type 5s steps(1100, end); */
   
   
 }
 
-.top-text2-typewriter{
+.top-text2-top-text2-typewriter{
   animation: typewriter 4s steps(50000) 1s 1 normal both,
              blinkTextCursor 500ms steps(50000) infinite normal;
 }
 
-.top-text3-typewriter{
-  animation: typewriter 4s steps(50000) 1s 1 normal both,
-             blinkTextCursor 500ms steps(50000) infinite normal;
-}
+
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 42em;}
+  to{width: 41.2em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(12,15,16,.75);}
