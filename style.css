@@ -273,14 +273,12 @@ body {
 }
 
 
-.page3-box {
-  width:50% from-left;
-}
-.page3-pic  {
+
+.page3-pics  {
   position: relative;
-  top: 50px;
-  right: -1300px;
-  background-color: #eee;
+  top: 80px;
+  right: -1200px;
+  
 }
 
 .page3-texts {
