@@ -21,14 +21,14 @@ body {
 
 
 .header {
-  background: black;
+  background: transparent;
   padding: 10px 16px;
-  
+  mix-blend-mode: difference;
 }
 
 .header h2 {
-  mix-blend-mode: difference;
-  color: rgb(10,10,10);
+  mix-blend-mode: color-dodge;
+ 
   
 }
 
@@ -55,6 +55,7 @@ body {
   background-image: url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fokkk.jpg?v=1609445897831');
   background-position: center;
   background-size: cover;
+  z-index:-1;
 
 }
 
