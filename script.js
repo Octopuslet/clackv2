@@ -1,12 +1,3 @@
-let topButtonTest = $('#page2 > .top-button-test');
-
-function commandsOnClick(page) {
-  window.scrollTo(0, window.innerHeight * page);
-}
-
-
-
-
 
 $(document).ready(function (){
  
@@ -33,9 +24,9 @@ $(document).ready(function (){
 });
 
 
-function openCity(evt, cityName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
+function openList(evt, listDown) {
+  
+  var i, tabcontent, tablink;
 
   
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -43,15 +34,16 @@ function openCity(evt, cityName) {
     tabcontent[i].style.display = "none";
   }
 
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+
+  tablink = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablink.length; i++) {
+    tablink[i].className = tablink[i].className.replace(" active", "");
   }
 
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
+  
+  document.getElementById(listDown).style.display = "block";
   evt.currentTarget.className += " active";
+  
 }
 
 
