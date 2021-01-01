@@ -20,12 +20,18 @@ body {
 
 
 
-/* .header {
+.header {
+  background: black;
   padding: 10px 16px;
-  background-image: url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2F41D6D38B-50E3-409D-9F23-516B7AF306D7.JPEG?v=1609357721911');
   
+}
+
+.header h2 {
   mix-blend-mode: difference;
-}*/
+  color: rgb(10,10,10);
+  
+}
+
 .content {
   padding: 16px;
 }

@@ -1,47 +1,37 @@
-let topButtonTest = $('#page2 > .top-button-test');
+let topButtonTest = $("#page2 > .top-button-test");
 
 function commandsOnClick(page) {
   window.scrollTo(0, window.innerHeight * page);
 }
 
-
-
-
-
-$(document).ready(function (){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
+$(document).ready(function() {
+  $("a").on("click", function(event) {
     if (this.hash !== "") {
-      // Prevent default anchor click behavior
       event.preventDefault();
 
-      // Store hash
       var hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function() {
+          window.location.hash = hash;
+        }
+      );
+    }
   });
 });
 
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {
+  myFunction();
+};
 
-// Get the header
 var header = document.getElementById("myHeader");
 
-// Get the offset position of the navbar
 var sticky = header.offsetTop;
 
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
@@ -49,16 +39,6 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 /*let price = [
   10.99
@@ -104,9 +84,3 @@ function changeTotal(id) {
     console.log(total[id].innerHTML)
     total[id].innerHTML = 'total: ' + (_total+_amount*10.99).toFixed(2)+" €";
 } */
-
-
-
-
-
-
