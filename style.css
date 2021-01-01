@@ -272,11 +272,17 @@ body {
   background-color: white;
 }
 
+.page3-pic  {
+  display:flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
 
 
 
 
-#gif {
+
+/* #gif {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -397,4 +403,4 @@ body {
     display: flex;
     flex-direction: row;
     padding: 10px;
-}
+} */
