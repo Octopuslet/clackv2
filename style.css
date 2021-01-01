@@ -195,7 +195,7 @@ body {
 
 .top-text2-top-text2-typewriter{
   animation: typewriter 4s steps(50000) 1s 1 normal both,
-             blinkTextCursor 500ms steps(50000) infinite normal;
+             blinkTextCursor 700ms steps(50000) infinite normal;
 }
 
 
