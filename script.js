@@ -5,13 +5,7 @@ function commandsOnClick(page) {
 }
 
 
-function letThereBeLight() {
-  
-  
-  
-  
-  topButtonTest.css('visibility', 'visible');
-}
+
 
 
 $(document).ready(function (){
