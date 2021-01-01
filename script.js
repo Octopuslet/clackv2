@@ -1,44 +1,51 @@
-let topButtonTest = $("#page2 > .top-button-test");
+let topButtonTest = $('#page2 > .top-button-test');
 
 function commandsOnClick(page) {
   window.scrollTo(0, window.innerHeight * page);
 }
 
-$(document).ready(function() {
-  $("a").on("click", function(event) {
+
+
+
+
+$(document).ready(function (){
+ 
+  $("a").on('click', function(event) {
+
+   
     if (this.hash !== "") {
+     
       event.preventDefault();
 
+    
       var hash = this.hash;
 
-      $("html, body").animate(
-        {
-          scrollTop: $(hash).offset().top
-        },
-        800,
-        function() {
-          window.location.hash = hash;
-        }
-      );
+     
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+       
+        window.location.hash = hash;
+      });
     }
   });
 });
 
-window.onscroll = function() {
-  myFunction();
-};
 
-var header = document.getElementById("myHeader");
 
-var sticky = header.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
 
 /*let price = [
   10.99
@@ -84,3 +91,9 @@ function changeTotal(id) {
     console.log(total[id].innerHTML)
     total[id].innerHTML = 'total: ' + (_total+_amount*10.99).toFixed(2)+" €";
 } */
+
+
+
+
+
+

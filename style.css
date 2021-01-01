@@ -20,12 +20,15 @@ body {
 
 
 
-.header {
+#myHeader {
   z-index: 1000;
-  psition: fixed;
+  position: fixed;
+  top: 0;
   background: transparent;
   padding: 10px 16px;
   
+  color: white;
+  mix-blend-mode: difference;
 }
 
 
@@ -33,17 +36,6 @@ body {
 .content {
   padding: 16px;
 }
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
 
 #page1 {
   display: flex;
