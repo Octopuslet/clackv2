@@ -21,7 +21,7 @@ body {
 
 
 #myHeader {
-  z-index: 1000;
+  z-index: 10000;
   position: fixed;
   top: 0;
   background: transparent;
@@ -102,11 +102,12 @@ body {
 }
 
 
-#page2 .page2-pictures{
-  
+#page2 {
+  color: white;
 }
 
 #circle{
+  z-index:-1;
   position:relative;
   top: 200px;
   left: 1205px;
@@ -120,6 +121,7 @@ body {
 }
 
 #circle2 {
+  z-index:-1;
   position:relative;
   top: 200px;
   left: 150px;
