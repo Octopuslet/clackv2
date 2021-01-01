@@ -103,6 +103,7 @@ body {
 
 
 #page2 {
+  z-index: -2;
   color: white;
 }
 
@@ -210,7 +211,11 @@ body {
   background-color: black;
   color: white;
 }
-
+#page2-pic1 {
+  position: relative;
+  top: 200px;
+  left: 150px;
+}
 #page3 {
   
 }
