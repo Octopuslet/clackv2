@@ -159,7 +159,8 @@ body {
   text-align: center;
   font-size: 60px;
   color: #013C6F;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Staatliches";
+  letter-spacing: .30em;
   -webkit-animation: fadein 10s
 }
 
@@ -198,11 +199,6 @@ body {
   letter-spacing: 2px;
   width: 38em; 
   /*animation: type 5s steps(1100, end); 
-  
-  .page3-table h1 {
-  font-family: "Staatliches";
-  font-size: 40px;
-}
   
   */
   
