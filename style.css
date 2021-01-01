@@ -39,6 +39,8 @@ body {
 }
 
 #homebutton {
+  position: relative;
+  top: 9px;
   text-decoration: none;
   font-size: 30px;
   
@@ -297,10 +299,14 @@ body {
 }
 
 .tab {
+  position: relative;
   overflow: hidden;
   border: 2px solid;
   background-color: transparent;
   float: right;
+  right: 9px;
+  top: 9px;
+ 
 }
 
 
@@ -327,6 +333,7 @@ body {
 .tab button.active {
   color: white;
   mix-blend-mode: difference;
+  
 }
 
 
@@ -334,9 +341,11 @@ body {
   display: none;
   padding: 6px 12px;
   margin: 9px;
-  border: 4px solid;
-  border-top: 4px solid;
+  border: 2px solid;
+  border-top: 2px solid;
   mix-blend-mode: difference;
+  width: 600px;
+  float: right;
 }
 
 .topright {
