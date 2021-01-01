@@ -272,12 +272,21 @@ body {
   background-color: white;
 }
 
+
+.page3-box {
+  width:50% from-left;
+}
 .page3-pic  {
-  display:flex;
-  justify-content: flex-start;
-  align-items: baseline;
+  position: relative;
+  top: 50px;
+  right: -1300px;
+  background-color: #eee;
 }
 
+.page3-texts {
+  display:flex;
+  align-items: center;
+}
 
 
 
