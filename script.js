@@ -1,62 +1,39 @@
-
-$(document).ready(function (){
- 
-  $("a").on('click', function(event) {
-
-   
+$(document).ready(function() {
+  $("a").on("click", function(event) {
     if (this.hash !== "") {
-     
       event.preventDefault();
 
-    
       var hash = this.hash;
 
-     
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-       
-        window.location.hash = hash;
-      });
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function() {
+          window.location.hash = hash;
+        }
+      );
     }
   });
 });
 
-
 function openList(evt, listDown) {
-  
   var i, tabcontent, tablink;
 
-  
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
-
 
   tablink = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablink.length; i++) {
     tablink[i].className = tablink[i].className.replace(" active", "");
   }
 
-  
   document.getElementById(listDown).style.display = "block";
   evt.currentTarget.className += " active";
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*let price = [
   10.99
@@ -102,9 +79,3 @@ function changeTotal(id) {
     console.log(total[id].innerHTML)
     total[id].innerHTML = 'total: ' + (_total+_amount*10.99).toFixed(2)+" €";
 } */
-
-
-
-
-
-

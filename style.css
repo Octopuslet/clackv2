@@ -18,9 +18,6 @@ body {
   height: 100vh;
 }
 
-
-
-
 #myHeader {
   z-index: 10000;
   position: fixed;
@@ -40,9 +37,7 @@ body {
   float: right;
   right: 9px;
   top: 9px;
- 
 }
-
 
 .tab button {
   background-color: transparent;
@@ -54,9 +49,7 @@ body {
   transition: 0.3s;
   color: white;
   mix-blend-mode: difference;
-  
 }
-
 
 .tab button:hover {
   background-color: black;
@@ -64,13 +57,10 @@ body {
   mix-blend-mode: difference;
 }
 
-
 .tab button.active {
   color: white;
   mix-blend-mode: difference;
-  
 }
-
 
 .tabcontent {
   display: none;
@@ -88,19 +78,22 @@ body {
   font-size: 28px;
 }
 
-.topright:hover {color: red;}
+.topright:hover {
+  color: red;
+}
 
 .tabcontent {
-  animation: fadeEffect 1s; 
+  animation: fadeEffect 1s;
 }
-
 
 @keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
-
 
 .content {
   padding: 16px;
@@ -111,39 +104,35 @@ body {
   top: 9px;
   text-decoration: none;
   font-size: 30px;
-  
 }
-
-
 
 #page1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fokkkkkk.jpg?v=1609514576788');
+  background-image: url("https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fokkkkkk.jpg?v=1609514576788");
   background-position: center;
   background-size: cover;
-  z-index:-1;
-
+  z-index: -1;
 }
 
 #page1 .top {
-  position:relative;
+  position: relative;
   top: 5px;
   right: 12px;
 }
 
 #page1 .background {
   z-index: 0;
-  
+
   position: absolute;
-  
+
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  
+
   object-fit: cover;
 
   filter: blur(8px);
@@ -156,16 +145,14 @@ body {
   color: white;
   font-family: "Staatliches";
   letter-spacing: 6px;
-  
 }
 
 #page1-image {
   height: auto;
   width: 32px;
-  
 }
 .page1-buttons {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -177,46 +164,51 @@ body {
   width: 64px;
   height: 64px;
   background: transparent;
- 
-  
 }
-
 
 #page2 {
   z-index: -2;
   background-color: #eee;
 }
 
-#circle{
-  z-index:-1;
-  position:relative;
+#circle {
+  z-index: -1;
+  position: relative;
   top: 200px;
   left: 1205px;
   width: 200px;
-  height: 200px; 
+  height: 200px;
   margin: 0;
-  
-      border-radius: 50%;
-      background: rgb(10,10,10);
-      background: linear-gradient(0deg, rgba(10,10,10,1) 49%, rgba(1,60,111,1) 100%);  
+
+  border-radius: 50%;
+  background: rgb(10, 10, 10);
+  background: linear-gradient(
+    0deg,
+    rgba(10, 10, 10, 1) 49%,
+    rgba(1, 60, 111, 1) 100%
+  );
 }
 
 #circle2 {
-  z-index:-1;
-  position:relative;
+  z-index: -1;
+  position: relative;
   top: 200px;
   left: 150px;
   width: 200px;
-  height: 200px; 
+  height: 200px;
   margin: 0;
-  
-      border-radius: 50%;
-      background: rgb(10,10,10);
-      background: linear-gradient(0deg, rgba(10,10,10,1) 49%, rgba(1,60,111,1) 100%);  
+
+  border-radius: 50%;
+  background: rgb(10, 10, 10);
+  background: linear-gradient(
+    0deg,
+    rgba(10, 10, 10, 1) 49%,
+    rgba(1, 60, 111, 1) 100%
+  );
 }
-    
+
 .toptexts {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -231,61 +223,60 @@ body {
   font-size: 60px;
   color: #013C6F;
   font-family: "Staatliches";
-  letter-spacing: .30em;
+  letter-spacing: 0.3em;
   animation: fadeEffect 7s;
 }
 
-
-
-
-
-.top-text2-top-text2-typewriter{
+.top-text2-top-text2-typewriter {
   text-align: center;
   font-size: 30px;
-  padding; 5px;
+  padding: 5px;
   color: #013C6F;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   overflow: hidden;
-  border-right: .15em solid gray; 
+  border-right: 0.15em solid gray;
   white-space: nowrap;
   letter-spacing: 2px;
-  width: 38em; 
+  width: 38em;
   /*animation: type 5s steps(1100, end); */
-  
-  
 }
 
 .top-text2 {
   text-align: center;
   font-size: 30px;
-  padding; 5px;
+  padding: 5px;
   color: #013C6F;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   overflow: hidden;
   /*border-right: .15em solid gray; */
   white-space: nowrap;
   letter-spacing: 2px;
-  width: 38em; 
+  width: 38em;
   /*animation: type 5s steps(1100, end); 
   
   */
-  
-  
 }
 
-.top-text2-top-text2-typewriter{
+.top-text2-top-text2-typewriter {
   animation: typewriter 4s steps(50000) 1s 1 normal both,
-             blinkTextCursor 700ms steps(50000) infinite normal;
+    blinkTextCursor 700ms steps(50000) infinite normal;
 }
 
-
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 41.2em;}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 41.2em;
+  }
 }
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(12,15,16,.75);}
-  to{border-right-color: transparent;}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(12, 15, 16, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 
 .top h2 {
@@ -295,13 +286,14 @@ body {
   animation: type 0.8s steps(90, end);
 }
 
-@keyframes type{ 
-  from { width: 0; } 
-} 
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
 
 #page2 a {
   margin: 16px 25%;
-  
 
   border: 2px solid gray;
   font-size: 16px;
@@ -312,13 +304,12 @@ body {
   background-color: transparent;
   border-color: black;
   color: black;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-align: center;
   text-decoration: none;
 
-  
-  -webkit-border-radius: 28;  
-  -moz-border-radius: 28;  
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
   border-radius: 28px;
 }
 
@@ -330,7 +321,6 @@ body {
   position: relative;
   top: 170px;
   left: 200px;
-  
 }
 
 #page2-pic2 {
@@ -341,31 +331,20 @@ body {
 #page3 {
   z-index: -2;
   background-color: white;
-  display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-   
+ 
 }
 
 .page3-text {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
-.
-
-
-
-
 .page3-table2 {
-  display: flex;
-  justify-content: CENTER;
-  align-items: center;
+  margin-top: 20%;
+  margin-left: 20%;
   
 }
 
-.page3-table2 h1 {
+/*.page3-table2 h1 {
   font-size: 64px;
   font-family: "Staatliches";
   letter-spacing: 2px;
@@ -373,21 +352,19 @@ body {
 
 .page3-table2 p {
   font-size: 20px;
-  font-family: 'Roboto Mono', monospace;;
+  font-family: "Roboto Mono", monospace;
   letter-spacing: 1px;
 }
-.page3-table  {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    
-    justify-content: space-around;
-}
 
-#page3-image {
+/* #page3-image {
   height: auto;
   width: 32px;
 }
+
+
+
+
+
 
 /* #gif {
   display: flex;
