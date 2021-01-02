@@ -1,12 +1,4 @@
-/*body {
-  margin: 0px;
-  padding: 0px;
-  background-image: url("https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Ftaust2.jpg?v=1602790089498");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-}*/
+
 body {
   font-family: "Raleway", arial, sans-serif;
   font-weight: 100;
@@ -253,7 +245,7 @@ body {
   white-space: nowrap;
   letter-spacing: 2px;
   width: 38em;
-  /*animation: type 5s steps(1100, end); */
+
 }
 
 #page2-button {
@@ -280,9 +272,9 @@ body {
   white-space: nowrap;
   letter-spacing: 2px;
   width: 38em;
-  /*animation: type 5s steps(1100, end); 
   
-  */
+  
+  
 }
 
 .top-text2-top-text2-typewriter {
@@ -364,16 +356,25 @@ body {
 }
 
 .page3-text {
+  height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
+.page3-info {
+  margin: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
 .page3-table2 {
-  width: 100%;
+  margin: 0 10%;
+  width: 80%;
   height: 70%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .page3-table2 h1 {
@@ -389,9 +390,9 @@ body {
 }
 
 #page3-img {
+  margin: 32px;
   width: 30vh;
   height: 30vh;
-  margin: 10%;
 }
 
 #page3-arrow {
@@ -399,9 +400,11 @@ body {
   min-height: 30%;
   cursor: pointer;
   box-shadow: 0 9px transparent;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 #page3-arrow a {
-  margin: 0 auto;
 }
 
 
