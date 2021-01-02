@@ -169,6 +169,16 @@ body {
   width: 64px;
   height: 64px;
   background: transparent;
+  cursor: pointer;
+  box-shadow: 0 9px transparent;
+}
+
+#page1-button:hover {background-color: transparent}
+
+#page1-button:active {
+  background-color: transparent;
+  box-shadow: 0 5px transparent;
+  transform: translateY(6px);
 }
 
 #page2 {
@@ -244,6 +254,19 @@ body {
   letter-spacing: 2px;
   width: 38em;
   /*animation: type 5s steps(1100, end); */
+}
+
+#page2-button {
+  cursor: pointer;
+  box-shadow: 0 9px transparent;
+}
+
+#page2-button:hover {background-color: transparent}
+
+#page2-button:active {
+  background-color: transparent;
+  box-shadow: 0 5px transparent;
+  transform: translateY(6px);
 }
 
 .top-text2 {
@@ -367,16 +390,17 @@ body {
 }
 #page3-arrow {
   position: relative;
-  top: 250px;
+  top: 350px;
   right: 800px;
   cursor: pointer;
+  box-shadow: 0 9px transparent;
 }
 #page3-arrow:hover {background-color: transparent}
 
 #page3-arrow:active {
   background-color: transparent;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  box-shadow: 0 5px transparent;
+  transform: translateY(6px);
 }
 #page3-image {
   height: auto;
