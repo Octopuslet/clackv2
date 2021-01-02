@@ -279,13 +279,22 @@ body {
     justify-content: space-evenly;
 }
 
-
+.page3-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.
 
 
 
 
 .page3-table2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 20%;
+  margin: 10px;
   
   
 }
@@ -325,6 +334,7 @@ body {
 
 
 .tab button:hover {
+  background-color: black;
   color: white;
   mix-blend-mode: difference;
 }
