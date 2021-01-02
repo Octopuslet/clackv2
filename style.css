@@ -349,13 +349,14 @@ body {
 #page2-pic1 {
   position: relative;
   top: 170px;
-  left: 200px;
+  left: 180px;
 }
 
 #page2-pic2 {
   position: relative;
-  top: 0px;
-  left: 1200px;
+  top: -120px;
+  left: 1000px;
+ 
 }
 #page3 {
   z-index: -2;
