@@ -390,12 +390,15 @@ body {
   margin-left: 200px;
 }
 #page3-arrow {
-  position: relative;
-  top: 350px;
-  right: 800px;
+  width: 100%;
   cursor: pointer;
   box-shadow: 0 9px transparent;
 }
+#page3-arrow a {
+  margin: 0 auto;
+}
+
+
 #page3-arrow:hover {background-color: transparent}
 
 #page3-arrow:active {
