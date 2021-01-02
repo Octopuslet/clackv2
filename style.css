@@ -299,6 +299,10 @@ body {
   
 }
 
+.page3-table2 h1 {
+  font-family: "Staatliches";
+  letter-spacing: 2px;
+}
 .page3-table  {
     display: flex;
     align-items: center;
