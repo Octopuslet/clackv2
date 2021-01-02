@@ -223,10 +223,11 @@ body {
 }
 
 .toptexts {
-  display: flex;
-  justify-content: center;
+  position:relative;
+  display:flex;
   align-items: center;
   flex-direction: column;
+  bottom: 100px;
 }
 
 .toptexts p {
@@ -354,7 +355,7 @@ body {
 #page2-pic2 {
   position: relative;
   top: 0px;
-  left: 1000px;
+  left: 1200px;
 }
 #page3 {
   z-index: -2;
