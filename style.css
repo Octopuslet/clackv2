@@ -343,9 +343,9 @@ body {
   background-color: white;
   display: flex;
     align-items: center;
+    justify-content: space-between;
     
-    
-    justify-content: space-evenly;
+   
 }
 
 .page3-text {
@@ -360,11 +360,8 @@ body {
 
 .page3-table2 {
   display: flex;
-  justify-content: center;
+  justify-content: CENTER;
   align-items: center;
-  margin-right: 20%;
-  margin: 10px;
-  
   
 }
 
