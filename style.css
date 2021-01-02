@@ -32,6 +32,74 @@ body {
   mix-blend-mode: difference;
 }
 
+.tab {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid;
+  background-color: transparent;
+  float: right;
+  right: 9px;
+  top: 9px;
+ 
+}
+
+
+.tab button {
+  background-color: transparent;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: white;
+  mix-blend-mode: difference;
+  
+}
+
+
+.tab button:hover {
+  background-color: black;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+
+.tab button.active {
+  color: white;
+  mix-blend-mode: difference;
+  
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  margin: 9px;
+  border: 2px solid;
+  border-top: 2px solid;
+  mix-blend-mode: difference;
+  width: 600px;
+  float: right;
+}
+
+.topright {
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.topright:hover {color: red;}
+
+.tabcontent {
+  animation: fadeEffect 1s; 
+}
+
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 
 
 .content {
@@ -260,14 +328,14 @@ body {
 #page2-pic1 {
   position: relative;
   top: 170px;
-  left: 250px;
+  left: 200px;
   
 }
 
 #page2-pic2 {
   position: relative;
   top: 0px;
-  left: 1200px;
+  left: 1000px;
 }
 #page3 {
   z-index: -2;
@@ -300,8 +368,15 @@ body {
 }
 
 .page3-table2 h1 {
+  font-size: 64px;
   font-family: "Staatliches";
   letter-spacing: 2px;
+}
+
+.page3-table2 p {
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;;
+  letter-spacing: 1px;
 }
 .page3-table  {
     display: flex;
@@ -311,73 +386,6 @@ body {
     justify-content: space-around;
 }
 
-.tab {
-  position: relative;
-  overflow: hidden;
-  border: 2px solid;
-  background-color: transparent;
-  float: right;
-  right: 9px;
-  top: 9px;
- 
-}
-
-
-.tab button {
-  background-color: transparent;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  color: white;
-  mix-blend-mode: difference;
-  
-}
-
-
-.tab button:hover {
-  background-color: black;
-  color: white;
-  mix-blend-mode: difference;
-}
-
-
-.tab button.active {
-  color: white;
-  mix-blend-mode: difference;
-  
-}
-
-
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  margin: 9px;
-  border: 2px solid;
-  border-top: 2px solid;
-  mix-blend-mode: difference;
-  width: 600px;
-  float: right;
-}
-
-.topright {
-  cursor: pointer;
-  font-size: 28px;
-}
-
-.topright:hover {color: red;}
-
-.tabcontent {
-  animation: fadeEffect 1s; 
-}
-
-
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
 
 
 /* #gif {
