@@ -386,7 +386,10 @@ body {
     justify-content: space-around;
 }
 
-
+.imagepic {
+  height:auto;
+  width: 64px;
+}
 
 /* #gif {
   display: flex;
