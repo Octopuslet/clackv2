@@ -140,8 +140,7 @@ body {
 
   object-fit: cover;
 
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  
 }
 
 #page1 h2 {
@@ -185,7 +184,7 @@ body {
   z-index: -2;
   background-color: #eee;
 }
-
+/* These circles are not shown on the website but they stay so the second page stays in order*/
 #circle {
   z-index: -1;
   position: relative;
@@ -349,7 +348,7 @@ body {
 #page2-pic1 {
   position: relative;
   top: 170px;
-  left: 180px;
+  left: 150px;
 }
 
 #page2-pic2 {
