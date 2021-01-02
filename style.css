@@ -367,9 +367,16 @@ body {
 }
 #page3-arrow {
   position: relative;
-  top: 550px;
-  right: 880px;
-  
+  top: 250px;
+  right: 800px;
+  cursor: pointer;
+}
+#page3-arrow:hover {background-color: transparent}
+
+#page3-arrow:active {
+  background-color: transparent;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 #page3-image {
   height: auto;
