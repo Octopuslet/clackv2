@@ -170,6 +170,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .page1-button {
   border-color: transparent;
   border-radius: 22px;
@@ -386,9 +387,9 @@ body {
     justify-content: space-around;
 }
 
-.imagepic {
-  height:auto;
-  width: 64px;
+#page3-image {
+  height: auto;
+  width: 32px;
 }
 
 /* #gif {
