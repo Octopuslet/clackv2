@@ -49,6 +49,8 @@ body {
   transition: 0.3s;
   color: white;
   mix-blend-mode: difference;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1px;
 }
 
 .tab button:hover {
@@ -71,6 +73,7 @@ body {
   mix-blend-mode: difference;
   width: 600px;
   float: right;
+  font-family: "Roboto Mono", monospace;
 }
 
 .topright {
@@ -105,6 +108,7 @@ body {
   text-decoration: none;
   font-family: "Staatliches";
   font-size: 30px;
+  letter-spacing: 4px;
 }
 
 #page1 {
@@ -360,6 +364,16 @@ body {
 #page3-img {
   margin-top: 150px;
   margin-left: 200px;
+}
+#page3-arrow {
+  position: relative;
+  top: 550px;
+  right: 880px;
+  
+}
+#page3-image {
+  height: auto;
+  width: 64px;
 }
 
 #page4 {
