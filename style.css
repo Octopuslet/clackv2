@@ -19,27 +19,11 @@ body {
   width: 100%;
   color: white;
   mix-blend-mode: difference;
-  padding: 0px;
-}
-
-#myHeader a {
-  padding: 10px 5px 5px 10px;
-}
-
-.progress-container {
-  width: 100%;
-  height: 3px;
-  background: black;
- 
- 
+  
 }
 
 
-.progress-bar {
-  height: 3px;
-  background: white;
-  width: 100%;
-}
+
 
 .tab {
   position: relative;
@@ -409,6 +393,7 @@ body {
 #page3-image {
   height: auto;
   width: 64px;
+ 
 }
 
 #page4 {
@@ -418,11 +403,37 @@ body {
 #page4-image {
   height: auto;
   width: 200px;
+  background-color: #013C6F;
+  border-radius: 50%;
+  
 }
 
 .page4-image-div {
   display: flex;
   justify-conent: flex-start;
+}
+
+.page4-table {
+  display:flex;
+  justify-content: space-evenly;
+  height: 50%;
+  align-items: center;
+}
+
+
+
+
+
+.page3-table2 h1 {
+  font-size: 64px;
+  font-family: "Staatliches";
+  letter-spacing: 2px;
+}
+
+.page3-table2 p {
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1px;
 }
 
 
