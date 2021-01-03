@@ -403,8 +403,8 @@ body {
 #page4-image {
   height: auto;
   width: 200px;
-  background-color: #013C6F;
-  border-radius: 50%;
+  
+  
   
 }
 
@@ -423,15 +423,16 @@ body {
 
 
 .page4-text p {
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Roboto Mono", monospace;
-  
+  margin-left: 50px;
 }
 
 .page4-text h1 {
   font-size: 32px;
   font-family: "Staatliches";
   letter-spacing: 2px;
+   margin-left: 50px;
 }
 
 
