@@ -102,7 +102,7 @@ body {
 
 .tablink {
   font-family: 'Poppins', sans-serif;
-  font-size: 24px;
+  font-size: 25px;
 }
 
 .content {
@@ -116,7 +116,7 @@ body {
  font-family: 'Poppins', sans-serif;
   font-size: 30px;
   letter-spacing: 4px;
-  
+  left: 9px;
   
 }
 
