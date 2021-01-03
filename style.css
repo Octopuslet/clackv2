@@ -22,6 +22,56 @@ body {
   
 }
 
+.headerbuttons {
+  display:flex;
+  justify-content: row;
+  
+}
+
+#headerbutton1  {
+  margin: 16px 25%;
+  
+  
+  border: 2px solid gray;
+  font-size: 16px;
+  letter-spacing: 3px;
+  height: 32px;
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  
+  -webkit-border-radius: 28;  
+  -moz-border-radius: 28;  
+  border-radius: 28px;
+}
+
+
+#headerbutton2  {
+  margin: 16px 25%;
+  
+  
+  border: 2px solid gray;
+  font-size: 16px;
+  letter-spacing: 3px;
+  height: 32px;
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  
+  -webkit-border-radius: 28;  
+  -moz-border-radius: 28;  
+  border-radius: 28px;
+}
+
+.headerbutton #headerbutton1 #headerbutton2 button:hover {
+  background-color: white;
+  color: black;
+}
+
 
 
 
@@ -265,7 +315,7 @@ body {
     width: 0;
   }
   to {
-    width: 31.2em;
+    width: 32.5em;
   }
 }
 @keyframes blinkTextCursor {
