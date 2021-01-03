@@ -418,23 +418,22 @@ body {
   justify-content: space-evenly;
   height: 50%;
   align-items: center;
+  border-bottom: 2px black;
 }
 
 
+.page4-text p {
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  
+}
 
-
-
-.page3-table2 h1 {
-  font-size: 64px;
+.page4-text h1 {
+  font-size: 32px;
   font-family: "Staatliches";
   letter-spacing: 2px;
 }
 
-.page3-table2 p {
-  font-size: 20px;
-  font-family: "Roboto Mono", monospace;
-  letter-spacing: 1px;
-}
 
 
 /* #gif {
@@ -447,7 +446,7 @@ body {
   width: 20%;
   position:relative;
   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
-  justify-content:space-between;
+  justify-content:space-between
 }
 
 #gif2 {
