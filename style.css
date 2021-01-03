@@ -356,12 +356,14 @@ body {
   font-size: 64px;
   font-family: "Staatliches";
   letter-spacing: 2px;
+  color: #013C6F;
 }
 
 .page3-table2 p {
   font-size: 20px;
   font-family: "Roboto Mono", monospace;
   letter-spacing: 1px;
+  color: #013C6F;
 }
 
 #page3-img {
@@ -426,6 +428,7 @@ body {
   font-size: 15px;
   font-family: "Roboto Mono", monospace;
   margin-left: 50px;
+  color: #013C6F;
 }
 
 .page4-text h1 {
@@ -433,7 +436,10 @@ body {
   font-family: "Staatliches";
   letter-spacing: 2px;
    margin-left: 50px;
+  color: #013C6F;
 }
+
+
 
 
 
