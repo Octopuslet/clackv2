@@ -32,7 +32,7 @@ body {
   background-color: transparent;
   float: right;
   right: 9px;
-  top: 9px;
+  top: 0px;
   
 }
 .tabcontent h3 {
@@ -67,7 +67,7 @@ body {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  margin: 9px;
+  margin: 7px;
   border-bottom: 2px solid;
   mix-blend-mode: difference;
   width: 600px;
@@ -87,6 +87,7 @@ body {
 
 .tabcontent {
   animation: fadeEffect 1s;
+  font-family: 'Poppins', sans-serif;
 }
 
 @keyframes fadeEffect {
@@ -98,13 +99,18 @@ body {
   }
 }
 
+.tablink {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
 .content {
   padding: 16px;
 }
 
 #homebutton {
   position: relative;
-  top: 9px;
+  top: 15px;
   text-decoration: none;
  font-family: 'Poppins', sans-serif;
   font-size: 30px;
@@ -259,7 +265,7 @@ body {
     width: 0;
   }
   to {
-    width: 41.2em;
+    width: 31.2em;
   }
 }
 @keyframes blinkTextCursor {
@@ -272,10 +278,11 @@ body {
 }
 
 .top h2 {
+  text-align: center;
   white-space: nowrap;
   overflow: hidden;
-  width: 3.5em;
-  animation: type 0.8s steps(90, end);
+  width: 20.5em;
+  animation: type 3s steps(190, end);
   font-family: 'Poppins', sans-serif;
 }
 
