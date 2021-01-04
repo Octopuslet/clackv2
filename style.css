@@ -159,7 +159,7 @@ body {
   padding: 3px;
   color: #d1b88e;
   
-  letter-spacing: 6px;
+  letter-spacing: 2px;
 }
 
 #page1-image {
@@ -213,7 +213,7 @@ body {
   font-size: 60px;
   color: #013C6F;
   font-family: "Staatliches";
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
   animation: fadeEffect 7s;
 }
 
