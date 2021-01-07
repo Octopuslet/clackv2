@@ -418,8 +418,11 @@ body {
 }
 
 #page4-image {
+  position: relative;
   height: auto;
-  width: 200px;
+  width: 250px;
+  left: 50px;
+  
 }
 
 .page4-image-div {
@@ -436,24 +439,24 @@ body {
 }
 
 
-.page4-text p {
+.page4-text p {  
   font-size: 16px;
   font-family: 'Playfair Display', serif;
-  margin-left: 50px;
   color: #013C6F;
+  
 }
 
 .page4-text h1 {
   font-size: 32px;
   font-family: "Staatliches";
   letter-spacing: 2px;
-   margin-left: 50px;
+   
   color: #013C6F;
 }
 
 #page4-image-tablet {
   height: auto;
-  width: 225px;
+  width: 280px;
  
 }
 
