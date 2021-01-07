@@ -454,6 +454,7 @@ body {
 #page4-image-tablet {
   height: auto;
   width: 225px;
+ 
 }
 
 .page4-table2 {
@@ -470,6 +471,7 @@ body {
   font-family: 'Playfair Display', serif;
   margin-left: 50px;
   color: #013C6F;
+  
 }
 
 .page4-texts h1 {
@@ -478,7 +480,7 @@ body {
   letter-spacing: 2px;
    margin-left: 50px;
   color: #013C6F;
-  margin: 20px
+  
 }
 
 #page4-image-s {
