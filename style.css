@@ -548,14 +548,10 @@ body {
 
 
 
-footer
+#page5 footer
 {
-    ackground-color: #eee;
-    font-size:small;
-    text-align:center;
-    height:50px;
-    background-color:black;
-    clear: both;
+    background-color: #eee;
+    
 
 }
 /* #gif {
