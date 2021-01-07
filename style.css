@@ -411,7 +411,6 @@ body {
 #page3-image {
   height: auto;
   width: 64px;
- 
 }
 
 #page4 {
@@ -479,9 +478,37 @@ body {
   letter-spacing: 2px;
    margin-left: 50px;
   color: #013C6F;
+  margin: 20px
+}
+
+#page4-image-s {
+  height: auto;
+  width: 64px;
+}
+
+#page4-arrow {
+  min-width: 100%;
+  min-height: 20%;
+  cursor: pointer;
+  box-shadow: 0 9px transparent;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 
+
+#page4-arrow:hover {background-color: transparent}
+
+#page4-arrow:active {
+  background-color: transparent;
+  box-shadow: 0 5px transparent;
+  transform: translateY(6px);
+}
+
+#page5 {
+  display:none;
+}
 
 /* #gif {
   display: flex;
