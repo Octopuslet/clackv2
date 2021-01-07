@@ -421,9 +421,6 @@ body {
 #page4-image {
   height: auto;
   width: 200px;
-  
-  
-  
 }
 
 .page4-image-div {
@@ -453,6 +450,11 @@ body {
   letter-spacing: 2px;
    margin-left: 50px;
   color: #013C6F;
+}
+
+#page4-image-tablet {
+  height: auto;
+  width: 215px;
 }
 
 
