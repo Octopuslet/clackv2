@@ -438,7 +438,7 @@ body {
 
 
 .page4-text p {
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'Playfair Display', serif;
   margin-left: 50px;
   color: #013C6F;
@@ -454,10 +454,32 @@ body {
 
 #page4-image-tablet {
   height: auto;
-  width: 215px;
+  width: 225px;
+}
+
+.page4-table2 {
+  display:flex;
+  justify-content: space-evenly;
+  height: 50%;
+  align-items: center;
+  border-bottom: 2px black;
 }
 
 
+.page4-texts p {
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  margin-left: 50px;
+  color: #013C6F;
+}
+
+.page4-texts h1 {
+  font-size: 32px;
+  font-family: "Staatliches";
+  letter-spacing: 2px;
+   margin-left: 50px;
+  color: #013C6F;
+}
 
 
 
