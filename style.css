@@ -546,8 +546,17 @@ body {
   
 }
 
-#footer {
-  background-color: #eee;
+
+
+footer
+{
+    ackground-color: #eee;
+    font-size:small;
+    text-align:center;
+    height:50px;
+    background-color:black;
+    clear: both;
+
 }
 /* #gif {
   display: flex;
