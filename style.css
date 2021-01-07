@@ -10,6 +10,9 @@ body {
   height: 100vh;
 }
 
+/* Header */
+
+
 #myHeader {
   z-index: 10000;
   position: fixed;
@@ -19,16 +22,11 @@ body {
   width: 100%;
   color: white;
   mix-blend-mode: difference;
-  
 }
-
-
-
 
 .tab {
   position: relative;
-  overflow: hidden;
-  
+  overflow: hidden;  
   background-color: transparent;
   float: right;
   right: 9px;
@@ -71,10 +69,7 @@ body {
   border-bottom: 2px solid;
   mix-blend-mode: difference;
   width: 600px;
-  float: right;
-  
-  
-  
+  float: right; 
 }
 
 .topright {
@@ -88,7 +83,6 @@ body {
 
 .tabcontent {
   animation: fadeEffect 1s;
-  
 }
 
 @keyframes fadeEffect {
@@ -119,6 +113,13 @@ body {
   left: 9px;
   
 }
+
+
+
+
+/* Page1 CSS */
+
+
 
 
 #page1 {
@@ -190,6 +191,12 @@ body {
   box-shadow: 0 5px transparent;
   transform: translateY(6px);
 }
+
+
+
+/* Page2 CSS */
+
+
 
 #page2 {
   z-index: -2;
@@ -337,6 +344,14 @@ body {
   opacity: 50%;
  
 }
+
+
+
+/* Page3 CSS */
+
+
+
+
 #page3 {
   background-color: white;
   display: flex;
@@ -412,6 +427,13 @@ body {
   height: auto;
   width: 64px;
 }
+
+
+
+/* Page4 CSS */
+
+
+
 
 #page4 {
   background-color: #eee;
@@ -515,10 +537,18 @@ body {
   transform: translateY(6px);
 }
 
+
+/* Page5 CSS */
+
+
+
 #page5 {
-  display:none;
+  
 }
 
+#footer {
+  background-color: #eee;
+}
 /* #gif {
   display: flex;
   flex-direction: column;
