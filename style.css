@@ -542,6 +542,15 @@ body {
 
 
 #page5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fokkkkkk.jpg?v=1609514576788");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  transform: scaleY(-1);
   
 }
 
