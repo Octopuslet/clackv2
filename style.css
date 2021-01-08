@@ -551,13 +551,11 @@ body {
   background-size: cover;
   z-index: -1;
   transform: scaleY(-1);
-  
 }
 
 
 
-#page5 footer
-{
+#page5 footer {
     background-color: #eee;
     
 
