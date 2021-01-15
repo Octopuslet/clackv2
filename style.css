@@ -153,7 +153,7 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
 #top-text1 {
   text-align: center;
   font-size: 61px;
-  color: #013C6F;
+  color: white;
    font-family: 'Inter', sans-serif;
   
   
@@ -163,7 +163,7 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
   text-align: center;
   font-size: 30px;
   padding: 5px;
-  color: #013C6F;
+  color: #8a8f98;
    font-family: 'Inter', sans-serif;
   overflow: hidden;
   border-right: 0.15em solid gray;
@@ -190,7 +190,7 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
   text-align: center;
   font-size: 30px;
   padding: 5px;
-  color: #013C6F;
+  color: #8a8f98;
   font-family: 'Inter', sans-serif;
   overflow: hidden;
   /*border-right: .15em solid gray; */
@@ -249,8 +249,8 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
   cursor: pointer;
   width: 20%;
   background-color: transparent;
-  border-color: black;
-  color: black;
+  border-color: #8a8f98;
+  color: white;
   font-family: "Playfair Display", serif;
   text-align: center;
   text-decoration: none;
@@ -262,7 +262,7 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
 
 #page2 a:hover {
   background-color: black;
-  color: white;
+  color: #8a8f98;
 }
 #page2-pic1 {
   position: relative;
@@ -322,7 +322,7 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
   font-size: 64px;
   font-family: 'Inter', sans-serif;
   letter-spacing: 2px;
-  color: #013C6F;
+  color: white;
   font-weight: 500;
 }
 
@@ -330,7 +330,7 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
   font-size: 20px;
   font-family: 'Inter', sans-serif;
   letter-spacing: 1px;
-  color: #013C6F;
+  color: #8a8f98;
    font-weight: 500;
 }
 
@@ -372,7 +372,7 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
 
 
 #page4 {
-  background-color: #eee;
+  background-color: #0f0f0f;
 }
 
 #page4-image {
@@ -401,7 +401,7 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
   text-align: center;
   font-size: 16px;
   font-family: 'Playfair Display', serif;
-  color: #013C6F;
+  color: #8a8f98;
   
 }
 
@@ -411,7 +411,7 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
   font-family: "Staatliches";
   letter-spacing: 2px;
    
-  color: #013C6F;
+  color: white;
 }
 
 #page4-image-tablet {
@@ -434,7 +434,7 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
   font-size: 16px;
   font-family: 'Playfair Display', serif;
   margin-left: 50px;
-  color: #013C6F;
+  color: #8a8f98;
   
 }
 
@@ -444,7 +444,7 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
   font-family: "Staatliches";
   letter-spacing: 2px;
    margin-left: 50px;
-  color: #013C6F;
+  color: white;
   
 }
 
@@ -493,7 +493,7 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
 
 
 #page5 footer {
-    background-color: #eee;
+    background-color: #50505;
     
 
 }
