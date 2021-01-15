@@ -127,6 +127,12 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
   transform: translateY(6px);
 }
 
+#page1-image2 {
+  z-index: -3;
+  height:auto;
+  width: 400px;
+}
+
 
 
 /* Page2 CSS */
