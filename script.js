@@ -18,7 +18,7 @@ $(document).ready(function() {
   });
 });
 
-function openList(evt, listDown) {
+/* function openList(evt, listDown) {
   var i, tabcontent, tablink;
 
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -34,7 +34,7 @@ function openList(evt, listDown) {
   document.getElementById(listDown).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
+*/
 
 
 /*let price = [
