@@ -223,13 +223,14 @@ background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
   }
 }
 
-.top h2 {
+.top h1 {
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
   width: 20.5em;
   animation: type 3s steps(190, end);
   font-family: 'Poppins', sans-serif;
+  color: white;
   
 }
 
