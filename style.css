@@ -5,7 +5,7 @@ body {
 }
 
 .page {
-  width: 100vw;
+  width: -97vw 100vw;
   height: 100vh;
 }
 
@@ -24,71 +24,14 @@ body {
 }
 
 
-.tabcontent h3 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-}
-.tab button {
-  background-color: transparent;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  color: white;
-  mix-blend-mode: difference;
-  font-family: "Roboto Mono", monospace;
-  letter-spacing: 1px;
-}
 
-.tab button:hover {
-  background-color: black;
-  color: white;
-  mix-blend-mode: difference;
-}
 
-.tab button.active {
-  color: white;
-  mix-blend-mode: difference;
-}
 
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  margin: 7px;
-  border-bottom: 2px solid;
-  mix-blend-mode: difference;
-  width: 600px;
-  float: right; 
-}
 
-.topright {
-  cursor: pointer;
-  font-size: 28px;
-}
 
-.topright:hover {
-  color: red;
-}
 
-.tabcontent {
-  animation: fadeEffect 1s;
-}
 
-@keyframes fadeEffect {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
-.tablink {
-  font-family: 'Poppins', sans-serif;
-  font-size: 25px;
-}
 
 .content {
   padding: 16px;
@@ -102,8 +45,6 @@ body {
   font-size: 30px;
   letter-spacing: 4px;
   left: 9px;
-  
-  
 }
 
 
@@ -151,7 +92,7 @@ body {
 #page1 h2 {
   z-index: 1;
   padding: 3px;
-  color: #d1b88e;
+  color: black;
   
   letter-spacing: 2px;
 }
