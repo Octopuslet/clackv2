@@ -320,16 +320,18 @@ body {
 
 .page3-table2 h1 {
   font-size: 64px;
-  font-family: "Staatliches";
+  font-family: 'Inter', sans-serif;
   letter-spacing: 2px;
   color: #013C6F;
+  font-weight: 500;
 }
 
 .page3-table2 p {
   font-size: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   letter-spacing: 1px;
   color: #013C6F;
+   font-weight: 500;
 }
 
 #page3-img {
