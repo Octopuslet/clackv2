@@ -11,6 +11,55 @@ body {
 
 /* Header */
 
+#reveal {
+  display:none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navi-desktop {
+ display:flex;
+  gap: 30px;
+  
+  
+}
+
+.navi-desktop a{
+  margin: 0 10px;
+}
+
+nav.mobile {
+  display: none;
+}
+
+nav.mobile .navi-mobile {
+  display:flex;
+  flex-direction: column;
+  gap: 30px;
+  position: fixed;
+  background-color: black;
+  
+}
+.mobile-close {
+  display: flex;  
+  align-slef: flex-end;
+}
+@media (max-width: 800px) {
+  nav.desktop {
+    display:none;
+  }
+  nav.mobile {
+    display: block;
+  }
+}
+
+#reveals {
+  display: none;
+  font-size: 20px;
+}
 
 #myHeader {
   z-index: 10000;
