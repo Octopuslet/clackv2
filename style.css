@@ -99,12 +99,12 @@ nav.mobile .navi-mobile {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*background-image: url("https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fokkkkkk.jpg?v=1609514576788"); */
+  background-image: url("https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fa45b38fba4108532111e2e7652485932.gif?v=1613133428901"); 
   background-position: center;
   background-size: cover;
   z-index: -1;
-  background: rgb(24,24,24);
-background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 100%);
+  background-color: #050505
+  
 }
 
 #page1 .top {
