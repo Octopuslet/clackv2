@@ -547,11 +547,17 @@ a:link {
   
   background-color: #050505;
   z-index: -1;
-  transform: scaleY(-1);
+  
 }
 
-
-
+.about-me-section {
+  display: flex;
+  align-items: center;
+  te
+}
+#about-me {
+  color: white;
+}
 #page5 footer {
     background-color: #50505;
     
