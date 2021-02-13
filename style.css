@@ -70,8 +70,19 @@ nav.mobile .navi-mobile {
   width: 100%;
   color: white;
   mix-blend-mode: difference;
+  text-align: right;
 }
 
+#COTM {
+  z-index: 10000;
+  position: fixed;
+  top: 0;
+  background: transparent;
+  padding: 10px 16px;
+  width: 100%;
+  color: white;
+  mix-blend-mode: difference;
+}
 .content {
   padding: 16px;
 }
@@ -99,11 +110,11 @@ nav.mobile .navi-mobile {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fa45b38fba4108532111e2e7652485932.gif?v=1613133428901"); 
+  /*background-image: url("https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fa45b38fba4108532111e2e7652485932.gif?v=1613133428901"); */
   background-position: center;
   background-size: cover;
   z-index: -1;
-  background-color: #050505
+  background-color: #050505;
   
 }
 
@@ -180,7 +191,7 @@ nav.mobile .navi-mobile {
 
 #page2 {
   z-index: -2;
-  background-color: #0f0f0f;
+  background-color: #050505;
 }
 
 
@@ -423,7 +434,7 @@ nav.mobile .navi-mobile {
 
 
 #page4 {
-  background-color: #0f0f0f;
+  background-color: #050505;
 }
 
 #page4-image {
