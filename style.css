@@ -550,14 +550,17 @@ a:link {
   
 }
 
-.about-me-section {
+.about22 {
   display: flex;
-  align-items: center;
+  justify-content: center;
  
 }
 #about-me {
-   display: flex;
-  align-items: center;
+  font-size: 46px;
+  font-family: 'Inter', sans-serif;
+  color: #8a8f98;
+  font-weight:700;
+  padding: 120px;
   color: white;
 }
 #page5 footer {
