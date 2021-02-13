@@ -61,9 +61,10 @@ nav.mobile .navi-mobile {
   font-size: 20px;
 }
 
-#myHeader, #COTM {
+#myHeader {
   display:flex;
-  justify
+  justify-content: space-between;
+  flex-direction: row;
   z-index: 10000;
   position: fixed;
   top: 0;
@@ -74,6 +75,9 @@ nav.mobile .navi-mobile {
   mix-blend-mode: difference;
   
 }
+
+
+
 
 a:link {
   text-decoration: none;
