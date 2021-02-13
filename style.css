@@ -556,6 +556,8 @@ a:link {
  
 }
 #about-me {
+   display: flex;
+  align-items: center;
   color: white;
 }
 #page5 footer {
