@@ -13,6 +13,9 @@ body {
   width: 100vw;
   height: 20vh;
   background-color: black;
+  /*background-image: url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fe94450105856261.5f914ae2b7b8d.jpg?v=1613337756262');
+  background-position: center;
+  background-size: cover; */
 }
 /* Header */
 
@@ -739,6 +742,14 @@ nav a:hover {
 }
 
 
+
+
+
+/* Page 6 start */
+
+
+
+
 .copyright {
   display: flex;
   flex-direction: row;
@@ -756,6 +767,7 @@ nav a:hover {
 }
 
 .border-on-left1 {
+  
   width: 100%;
   border-left: solid 2px white;
 }
@@ -765,6 +777,7 @@ nav a:hover {
   width: 100%;
   text-align: center;
   color: white;
+  flex-direction: column;
 }
 
 /* #gif {
