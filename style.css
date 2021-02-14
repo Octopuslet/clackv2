@@ -565,7 +565,10 @@ a:link {
 }
 
 #table1 {
+  display:flex;
   color: white;
+  justify-content: center;
+  border: 3px white solid;
 }
 #text-areap5 {
   border-left: 5px solid red;
