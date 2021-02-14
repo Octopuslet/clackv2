@@ -21,8 +21,7 @@ header {
   width: 100%;
 }
 
-/* changed this from the tutorial video to
-   allow it to gain focus, making it tabbable */
+
 .nav-toggle {
   position: absolute !important;
   top: -9999px !important;
@@ -125,12 +124,12 @@ nav a:hover {
   
   .logo {
     grid-column: 2 / 3;
+    color: white;
+    background-image: url('https://cdn.glitch.com/5d8dcd8e-376f-4bb9-9e58-f7bf48787c7c%2Fblock.svg?v=1613315345661')
   }
   
   nav {
-    // all: unset; /* this causes issues with Edge, since it's unsupported */
     
-    /* the following lines are not from my video, but add Edge support */
     position: relative;
     text-align: left;
     transition: none;
@@ -138,7 +137,7 @@ nav a:hover {
     background: none;
     top: initial;
     left: initial;
-    /* end Edge support stuff */
+   
     
     grid-column: 3 / 4;
     display: flex;
@@ -164,7 +163,7 @@ nav a:hover {
     content: '';
     display: block;
     height: 5px;
-    background: black;
+    background: white;
     position: absolute;
     top: -.75em;
     left: 0;
@@ -179,49 +178,6 @@ nav a:hover {
 }
 
 
-
-
-
-
-
-
-
-#myHeader {
-  display:flex;
-  justify-content: space-between;
-  flex-direction: row;
-  z-index: 10000;
-  position: fixed;
-  top: 0;
-  background: transparent;
-  padding: 10px 16px;
-  width: 100%;
-  color: white;
-  mix-blend-mode: difference;
-  
-}
-
-
-
-
-a:link {
-  text-decoration: none;
-  
-}
-
-.content {
-  padding: 16px;
-}
-
-#homebutton {
-  position: relative;
-  top: 10px;
-  text-decoration: none;
- font-family: 'Poppins', sans-serif;
-  font-size: 30px;
-  letter-spacing: 4px;
-  left: 9px;
-}
 
 
 
