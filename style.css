@@ -652,9 +652,9 @@ nav a:hover {
   font-size: 46px;
   font-family: 'Inter', sans-serif;
   color: white;
-  font-weight:700;
-  margin-top: 
-  align-items: center
+  font-weight:900;
+ 
+  align-items: center;
   color: white;
 }
 
@@ -665,10 +665,8 @@ nav a:hover {
   border: 3px white solid;
 }
 
-#page5 footer {
-    background-color: black;
-    
-
+footer {
+  color: white;
 }
 
 .outer {
@@ -679,7 +677,7 @@ nav a:hover {
 .outer .half {
   float: center;
   width: 50%;
-  height: 90vh;
+  height: 80vh;
   color: white;
   
   display: flex;
@@ -695,12 +693,14 @@ nav a:hover {
 }
 
 .outer .half p {
-  font-weight:700;
-  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight:200;
+  font-size: 16px;
   font-family: 'Inter', sans-serif;
   width: 100%;
-  text-align: left;
+  text-align: center;
   color: white;
+  color: #8a8f98;
 }
 #about-us-pic {
   width: 400px;
@@ -717,8 +717,9 @@ nav a:hover {
   justify-content: center;
 }
 .titleaboutdesign {
-  font-weight:700;
-  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 32px;
   font-family: 'Inter', sans-serif;
 
 }
