@@ -558,6 +558,7 @@ nav a:hover {
   font-family: 'Inter', sans-serif;
   color: #8a8f98;
   font-weight:700;
+ 
 }
 
 .page4-text h1 {
@@ -665,7 +666,7 @@ nav a:hover {
 }
 
 #page5 footer {
-    background-color: #50505;
+    background-color: black;
     
 
 }
@@ -679,6 +680,17 @@ nav a:hover {
 .outer .half {
   float: left;
   width: 50%;
+  height: 90vh;
+  color: white;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer .half p {
+  text-align: center;
+  
 }
 
 /* #gif {
