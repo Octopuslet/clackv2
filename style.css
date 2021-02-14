@@ -97,10 +97,11 @@ nav a {
   text-transform: uppercase;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
+  
 }
 
 nav a:hover {
-  color: #000;
+  color: #a9a9a9;
 }
 
 .nav-toggle:checked ~ nav {
@@ -203,7 +204,7 @@ nav a:hover {
   background-position: center;
   background-size: cover;
   z-index: -1;
-  background-color: #050505;
+  background-color: black;
   
 }
 
@@ -280,7 +281,7 @@ nav a:hover {
 
 #page2 {
   z-index: -2;
-  background-color: #050505;
+  background-color: black;
 }
 
 
@@ -433,7 +434,7 @@ nav a:hover {
 
 
 #page3 {
-  background-color: #050505;
+  background-color: black;
   display: flex;
   flex-direction: column;
 }
@@ -523,7 +524,7 @@ nav a:hover {
 
 
 #page4 {
-  background-color: #050505;
+  background-color: black;
 }
 
 #page4-image {
@@ -633,7 +634,7 @@ nav a:hover {
 
 #page5 {
   
-  background-color: #050505;
+  background-color: black;
   z-index: -1;
   
 }
@@ -648,7 +649,7 @@ nav a:hover {
   font-family: 'Inter', sans-serif;
   color: #8a8f98;
   font-weight:700;
-  padding: 120px;
+  align-items: center
   color: white;
 }
 
