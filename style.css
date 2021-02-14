@@ -18,7 +18,7 @@ header {
   text-align: center;
   position: fixed;
   z-index: 999;
-  width: 100%;
+  width: 100vw;
 }
 
 
@@ -97,6 +97,9 @@ nav a {
   text-transform: uppercase;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
+    
+  
+  font-weight:300;
   
 }
 
@@ -647,7 +650,7 @@ nav a:hover {
 #about-me {
   font-size: 46px;
   font-family: 'Inter', sans-serif;
-  color: #8a8f98;
+  color: white;
   font-weight:700;
   align-items: center
   color: white;
@@ -659,9 +662,7 @@ nav a:hover {
   justify-content: center;
   border: 3px white solid;
 }
-#text-areap5 {
-  border-left: 5px solid red;
-}
+
 #page5 footer {
     background-color: #50505;
     
