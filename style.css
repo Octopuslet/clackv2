@@ -677,7 +677,7 @@ nav a:hover {
 }
 
 .outer .half {
-  float: left;
+  float: right;
   width: 50%;
   height: 90vh;
   color: white;
@@ -691,13 +691,21 @@ nav a:hover {
 .border-on-left {
   width: 100%;
   border-left: solid 2px white;
+  padding: 15px;
 }
 
 .outer .half p {
   width: 100%;
-  text-align: center;
+  text-align: left;
   color: white;
 }
+#about-us-pic {
+  
+  width: 400px;
+  margin: 0px;
+  padding: 0px;
+}
+
 
 /* #gif {
   display: flex;
