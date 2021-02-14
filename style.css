@@ -652,6 +652,7 @@ nav a:hover {
   font-family: 'Inter', sans-serif;
   color: white;
   font-weight:700;
+  margin-top: 
   align-items: center
   color: white;
 }
@@ -668,6 +669,18 @@ nav a:hover {
     
 
 }
+
+.outer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.outer .half {
+  float: left;
+  width: 50%;
+}
+
 /* #gif {
   display: flex;
   flex-direction: column;
