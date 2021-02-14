@@ -550,11 +550,26 @@ a:link {
   
 }
 
-#table1 {
+.about22 {
+  display: flex;
+  justify-content: center;
  
 }
+#about-me {
+  font-size: 46px;
+  font-family: 'Inter', sans-serif;
+  color: #8a8f98;
+  font-weight:700;
+  padding: 120px;
+  color: white;
+}
 
-
+#table1 {
+  color: white;
+}
+#text-areap5 {
+  border-left: 5px solid red;
+}
 #page5 footer {
     background-color: #50505;
     
