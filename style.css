@@ -677,7 +677,7 @@ nav a:hover {
 }
 
 .outer .half {
-  float: right;
+  float: center;
   width: 50%;
   height: 90vh;
   color: white;
@@ -695,15 +695,32 @@ nav a:hover {
 }
 
 .outer .half p {
+  font-weight:700;
+  font-size: 28px;
+  font-family: 'Inter', sans-serif;
   width: 100%;
   text-align: left;
   color: white;
 }
 #about-us-pic {
-  
   width: 400px;
   margin: 0px;
   padding: 0px;
+}
+
+.titleabout {
+  
+  float: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titleaboutdesign {
+  font-weight:700;
+  font-size: 28px;
+  font-family: 'Inter', sans-serif;
+
 }
 
 
