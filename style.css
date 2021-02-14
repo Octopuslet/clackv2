@@ -5,10 +5,15 @@ body {
 }
 
 .page {
-  width: -97vw 100vw;
+  width: 100vw;
   height: 100vh;
 }
 
+.pageextra {
+  width: 100vw;
+  height: 20vh;
+  background-color: black;
+}
 /* Header */
 
 
@@ -698,7 +703,7 @@ nav a:hover {
   width: 100%;
   border-left: solid 2px white;
   padding: 15px;
-  margin-left: 20px;
+  margin-right: 400px;
 }
 
 .outer .half p {
@@ -733,6 +738,34 @@ nav a:hover {
 
 }
 
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+}
+
+.copyright .copyrighthalf {
+  float: left;
+  width: 50%;
+  height: 20vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.border-on-left1 {
+  width: 100%;
+  border-left: solid 2px white;
+}
+
+.copyright .copyrighthalf p, 
+.copyright .copyrighthalf h1 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
 
 /* #gif {
   display: flex;
