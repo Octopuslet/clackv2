@@ -665,8 +665,10 @@ nav a:hover {
   border: 3px white solid;
 }
 
-footer {
+#footer {
   color: white;
+  display: flex;
+  flex-direction: row;
 }
 
 .outer {
