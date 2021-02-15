@@ -486,10 +486,7 @@ nav a:hover {
 
 
 
-.page3-image-tab {
-  display: flex;
-  justify-conent: flex-start;
-}
+
 
 .page3-info {
   display:flex;
@@ -499,11 +496,11 @@ nav a:hover {
 }
 
 .page3-table2 {
-   display:flex;f
+   display:flex;
   height: 100vh;
-  align-items: center;
-  justify-content: flex-end;
-  border-bottom: 2px black;
+   
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .page3-table2 h1 {
