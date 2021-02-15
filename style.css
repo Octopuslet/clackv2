@@ -523,11 +523,11 @@ nav a:hover {
   font-weight:700;
 }
 
-/*#page3-img {
+#page3-img {
   margin: 32px;
   width: 40vh;
   height: 40vh;
-} */
+} 
 
 /*#page3-arrow {
   min-width: 100%;
@@ -687,7 +687,7 @@ nav a:hover {
   font-size: 64px;
   font-family: 'Inter', sans-serif;
   color: white;
-  font-weight:900;
+  font-weight:700;
   align-items: center;
   color: white;
 }
@@ -736,7 +736,7 @@ nav a:hover {
   color: #8a8f98;
 }
 #about-us-pic {
-  width: 400px;
+  width: 55%;
   
 }
 
