@@ -663,9 +663,12 @@ nav a:hover {
 
 
 #page5 {
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: black;
-  z-index: -1;
+  
   
 }
 
@@ -713,6 +716,8 @@ nav a:hover {
   width: 100%;
   border-left: solid 2px white;
   padding: 15px;
+  text-align: center;
+  color: white;
   
 }
 
@@ -727,7 +732,8 @@ nav a:hover {
   color: #8a8f98;
 }
 #about-us-pic {
-  width: 55%;
+  width: 800px;
+  height: 600px;
   
 }
 
