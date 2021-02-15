@@ -674,7 +674,7 @@ nav a:hover {
   justify-content: center;
  
 }
-#about-me {
+#aboutus {
   font-size: 64px;
   font-family: 'Inter', sans-serif;
   color: white;
@@ -755,7 +755,7 @@ nav a:hover {
 
 
 
-
+/*
 .copyright {
   display: flex;
   flex-direction: row;
