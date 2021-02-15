@@ -330,16 +330,16 @@ nav a:hover {
 
 #top-text1 {
   text-align: center;
-  font-size: 61px;
+  font-size: min(60px, 10vw);
   color: white;
    font-family: 'Inter', sans-serif;
-  width: min(30px, 3vw);
+  
   
 }
 
 .top-text2-top-text2-typewriter {
   text-align: center;
-  font-size: 15px;
+  font-size: min(30px, 3vw);
   padding: 5px;
   color: #8a8f98;
    font-family: 'Inter', sans-serif;
@@ -347,13 +347,17 @@ nav a:hover {
   border-right: 0.15em solid gray;
   white-space: nowrap;
   letter-spacing: 2px;
-  width: min(30px, 3vw);
+  width: 38em;
 
 }
 
+/*#page2-button a {
+  width: 100px;
+}
 #page2-button {
   cursor: pointer;
   box-shadow: 0 9px transparent;
+  
 }
 
 #page2-button:hover {background-color: transparent}
@@ -363,10 +367,10 @@ nav a:hover {
   box-shadow: 0 5px transparent;
   transform: translateY(6px);
 }
-
+*/
 .top-text2 {
   text-align: center;
-  font-size: min(30px, 3vw);
+  font-size: min(30px, 2.5vw);
   padding: 5px;
   color: #8a8f98;
   font-family: 'Inter', sans-serif;
@@ -444,12 +448,7 @@ nav a:hover {
   background-color: black;
   color: #8a8f98;
 }
-#page2-pic1 {
-  position: relative;
-  top: 50%;
-  left: 10%;
-  opacity: 50%;
-}
+
 
 #page2-pic2 {
   position: relative;
