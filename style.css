@@ -95,6 +95,7 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  
 }
 
 nav li {
@@ -122,6 +123,7 @@ nav a:hover {
 
 .nav-toggle:checked ~ nav {
   transform: scale(1,1);
+  
   
 }
 
@@ -331,13 +333,13 @@ nav a:hover {
   font-size: 61px;
   color: white;
    font-family: 'Inter', sans-serif;
-  
+  width: min(30px, 3vw);
   
 }
 
 .top-text2-top-text2-typewriter {
   text-align: center;
-  font-size: 30px;
+  font-size: 15px;
   padding: 5px;
   color: #8a8f98;
    font-family: 'Inter', sans-serif;
@@ -345,7 +347,7 @@ nav a:hover {
   border-right: 0.15em solid gray;
   white-space: nowrap;
   letter-spacing: 2px;
-  width: 38em;
+  width: min(30px, 3vw);
 
 }
 
@@ -403,18 +405,19 @@ nav a:hover {
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
-  width: 20.5em;
-  animation: type 3s steps(190, end);
+  width: 100%;
+  /*  animation: type 3s steps(190, end);*/
   font-family: 'Inter', sans-serif;
   color: white;
   
 }
 
-@keyframes type {
+/* @keyframes type {
   from {
     width: 0;
   }
 }
+*/
 
 #page2 a {
   margin: 16px 25%;
