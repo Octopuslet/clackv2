@@ -217,8 +217,8 @@ nav a:hover {
   nav.desktop {
     display: none;
   }
-  nav.mobile {
-    display: block;
+  #page5 {
+    flex-direction: column;
   }
 }
 
@@ -717,7 +717,7 @@ nav a:hover {
 }
 
 .border-on-left {
-  width: 100%;
+  width: 50%;
   border-left: solid 2px white;
   padding: 15px;
   text-align: center;
@@ -735,8 +735,11 @@ nav a:hover {
   color: white;
   color: #8a8f98;
 }
-#about-us-pic {
-  width: 100%;
+.about-us-pic {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
   
   
 }
