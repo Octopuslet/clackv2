@@ -124,7 +124,7 @@ nav a:hover {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
   .nav-toggle-label {
     display: none;
   }
@@ -198,7 +198,14 @@ nav a:hover {
 
 
 
-
+@media (max-width: 600px) {
+  nav.desktop {
+    display: none;
+  }
+  nav.mobile {
+    display: block;
+  }
+}
 
 
 /* Page1 CSS */
@@ -769,6 +776,9 @@ nav a:hover {
   color: white;
   flex-direction: column;
 }
+
+
+
 
 /* #gif {
   display: flex;
