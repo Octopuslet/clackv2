@@ -645,22 +645,10 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   background-color: black;
-  
-  
-}
-
-.feature-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  color: white;
   
 }
 
-.feature-card {
-  width: 200px;
-  margin: 20px;
-  text-align: center;
-}
 .about22 {
   display: flex;
   justify-content: center;
@@ -713,13 +701,10 @@ nav a:hover {
   color: white;
   
 }
-
-.border-on-left p {
-font-size: 20px;
+font-size: 24px;
   font-family: 'Inter', sans-serif;
   color: #8a8f98;
   font-weight:700;
-  }
 .outer .half p {
   letter-spacing: 2px;
   font-weight:200;
