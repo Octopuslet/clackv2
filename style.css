@@ -407,6 +407,9 @@ nav a:hover {
 }
 
 .top h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -414,6 +417,7 @@ nav a:hover {
   /*  animation: type 3s steps(190, end);*/
   font-family: 'Inter', sans-serif;
   color: white;
+  
   
 }
 
@@ -684,7 +688,6 @@ nav a:hover {
   font-family: 'Inter', sans-serif;
   color: white;
   font-weight:900;
-  margin-top: 100px;
   align-items: center;
   color: white;
 }
@@ -719,7 +722,7 @@ nav a:hover {
   width: 100%;
   border-left: solid 2px white;
   padding: 15px;
-  margin-right: 300px;
+  
 }
 
 .outer .half p {
@@ -734,8 +737,7 @@ nav a:hover {
 }
 #about-us-pic {
   width: 400px;
-  margin: 0px;
-  padding: 0px;
+  
 }
 
 .titleabout {
