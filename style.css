@@ -333,13 +333,13 @@ nav a:hover {
   font-size: min(60px, 10vw);
   color: white;
    font-family: 'Inter', sans-serif;
-  
+  font-weight: 200px;
   
 }
 
 .top-text2-top-text2-typewriter {
   text-align: center;
-  font-size: min(30px, 3vw);
+  font-size: min(30px, 2.8vw);
   padding: 5px;
   color: #8a8f98;
    font-family: 'Inter', sans-serif;
@@ -421,7 +421,7 @@ nav a:hover {
     width: 0;
   }
 }
-*/
+
 
 #page2 a {
   margin: 16px 25%;
@@ -443,7 +443,7 @@ nav a:hover {
   -moz-border-radius: 28;
   border-radius: 28px;
 }
-
+*/
 #page2 a:hover {
   background-color: black;
   color: #8a8f98;
@@ -453,7 +453,7 @@ nav a:hover {
 #page2-pic2 {
   position: relative;
   top: 10%;
-  left: 70%;
+  left: min(40%, 20%);
   opacity: 50%;
  
 }
@@ -587,6 +587,7 @@ nav a:hover {
   font-family: 'Inter', sans-serif;
   color: #8a8f98;
   font-weight:700;
+  margin-right: 50px;
  
 }
 
