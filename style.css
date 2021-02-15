@@ -471,6 +471,8 @@ nav a:hover {
 
 
 #page3 {
+  display:flex;
+  align-items: center;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -498,7 +500,7 @@ nav a:hover {
 .page3-table2 {
    display:flex;
   height: 100vh;
-   
+   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -558,6 +560,7 @@ nav a:hover {
 
 
 #page4 {
+  
   background-color: black;
 }
 
@@ -666,7 +669,7 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  
   align-items: center;
   background-color: black;
   
@@ -678,13 +681,13 @@ nav a:hover {
   justify-content: center;
  
 }
-#aboutus {
+#page5 header {
   font-size: 64px;
   font-family: 'Inter', sans-serif;
   color: white;
   font-weight:700;
   align-items: center;
-  color: white;
+  
 }
 
 #table1 {
