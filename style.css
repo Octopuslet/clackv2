@@ -494,12 +494,12 @@ nav a:hover {
 .page3-info {
   display:flex;
   justify-content: center;
+  flex-direction: column;
   
 }
 
 .page3-table2 {
-   display:flex;
- 
+   display:flex;f
   height: 100vh;
   align-items: center;
   justify-content: flex-end;
@@ -564,13 +564,7 @@ nav a:hover {
   background-color: black;
 }
 
-#page4-image {
-  
-  height: auto;
-  width: 250px;
-  
-  
-}
+
 
 .page4-image-div {
   display: flex;
@@ -592,7 +586,7 @@ nav a:hover {
   font-family: 'Inter', sans-serif;
   color: #8a8f98;
   font-weight:700;
-  margin-right: 50px;
+  
  
 }
 
@@ -771,6 +765,7 @@ nav a:hover {
 }
 
 .copyright .copyrighthalf {
+  padding: 20px;
   float: left;
   width: 50%;
   height: 20vh;
