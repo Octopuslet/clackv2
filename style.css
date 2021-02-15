@@ -560,8 +560,10 @@ nav a:hover {
 
 
 #page4 {
-  display: flex;
-  flex-wrap: wrap;
+  ddisplay: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: black;
 }
 
@@ -571,19 +573,13 @@ nav a:hover {
 
 .page4-table {
   display:flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 50%;
   align-items: center;
   border-bottom: 2px black;
 }
 
-.page4-table2 {
-  display:flex;
-  justify-content: space-between;
-  height: 50%;
-  
-  border-bottom: 2px black;
-}
+
 
 .page4-text p {  
   text-align: center;
@@ -608,6 +604,7 @@ nav a:hover {
 
 .page4-table2 {
   display:flex;
+  flex-directon: row-reverse;
   justify-content: space-evenly;
   height: 50%;
   align-items: center;
@@ -636,30 +633,6 @@ nav a:hover {
   
 }
 
-#page4-image-s {
-  height: auto;
-  width: 64px;
-}
-
-#page4-arrow {
-  min-width: 100%;
-  min-height: 20%;
-  cursor: pointer;
-  box-shadow: 0 9px transparent;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-
-
-
-#page4-arrow:hover {background-color: transparent}
-
-#page4-arrow:active {
-  background-color: transparent;
-  box-shadow: 0 5px transparent;
-  transform: translateY(6px);
-}
 
 
 /* Page5 CSS */
@@ -670,10 +643,9 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
   align-items: center;
   background-color: black;
-  
+  color: white;
   
 }
 
@@ -682,12 +654,11 @@ nav a:hover {
   justify-content: center;
  
 }
-#page5 header {
-  font-size: 64px;
-  font-family: 'Inter', sans-serif;
-  color: white;
-  font-weight:700;
-  align-items: center;
+
+#aboutus  {
+  display:flex;
+  width: 100%
+ 
   
 }
 
