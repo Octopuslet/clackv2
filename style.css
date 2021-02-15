@@ -560,25 +560,30 @@ nav a:hover {
 
 
 #page4 {
-  
+  display: flex;
+  flex-wrap: wrap;
   background-color: black;
 }
 
 
 
-.page4-image-div {
-  display: flex;
-  justify-conent: flex-start;
-}
+
 
 .page4-table {
   display:flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: 50%;
   align-items: center;
   border-bottom: 2px black;
 }
 
+.page4-table2 {
+  display:flex;
+  justify-content: space-between;
+  height: 50%;
+  
+  border-bottom: 2px black;
+}
 
 .page4-text p {  
   text-align: center;
