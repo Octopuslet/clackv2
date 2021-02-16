@@ -583,7 +583,7 @@ nav a:hover {
 
 
 .page4-text p {  
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   font-family: 'Inter', sans-serif;
   color: #8a8f98;
@@ -593,7 +593,7 @@ nav a:hover {
 }
 
 .page4-text h1 {
-  text-align: center;
+  text-align: left;
   font-size: 32px;
   font-family: 'Inter', sans-serif;
   letter-spacing: 2px;
@@ -605,7 +605,7 @@ nav a:hover {
 
 .page4-table2 {
   display:flex;
-  flex-directon: row-reverse;
+ 
   justify-content: space-evenly;
   height: 50%;
   align-items: center;
@@ -614,7 +614,7 @@ nav a:hover {
 
 
 .page4-texts p {
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   font-family: 'Inter', sans-serif;
   margin-left: 50px;
@@ -624,7 +624,7 @@ nav a:hover {
 }
 
 .page4-texts h1 {
-  text-align: center;
+  text-align: left;
   font-size: 32px;
   font-family: 'Inter', sans-serif;
   letter-spacing: 2px;
