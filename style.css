@@ -661,11 +661,9 @@ nav a:hover {
   justify-content: center;
   font-size: 64px;
   font-family: 'Inter', sans-serif;
-  color: white;
+  color: #A9A9A9;
   font-weight:900;
-  
-  padding: 15px;
-  border-bottom: solid 2px white 50%;
+  text-decoration: underline;
  
   
 }
@@ -742,7 +740,7 @@ nav a:hover {
 
 
 
-/*
+
 .copyright {
   display: flex;
   flex-direction: row;
