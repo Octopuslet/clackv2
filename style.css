@@ -704,6 +704,11 @@ nav a:hover {
   
 }
 
+.border-on-left p {
+  color: orange;
+    font-weight: 400;
+  font-size: 18px;
+}
 .outer .half p {
   letter-spacing: 2px;
   font-weight:200;
